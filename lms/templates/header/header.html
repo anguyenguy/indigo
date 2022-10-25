@@ -3,6 +3,7 @@
 <%page expression_filter="h" args="online_help_token, use_cookie_banner=False"/>
 
 <%namespace name='static' file='../static_content.html'/>
+<%namespace name='theme_path' file='/static/theme/indigo/lms/static/theme_path.html'/>
 <%namespace file='../main.html' import="login_query"/>
 <%!
 from django.urls import reverse
@@ -42,11 +43,11 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
   </script>
 % endif
 
-<link href="${static.url('css/bootstrap/bootstrap.min.css')}" rel="stylesheet">
-<link href="${static.url('fonts/San-Francisco-Display/stylesheet.css')}" rel="stylesheet">
+<link href="${theme_path.static('css/bootstrap/bootstrap.min.css')}" rel="stylesheet">
+<link href="${theme_path.static('fonts/San-Francisco-Display/stylesheet.css')}" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<link rel="stylesheet" href="${static.url('css/header.css')}">
+<link rel="stylesheet" href="${theme_path.static('css/header.css')}">
 
 <div id="wrapper">
     <header class="site-header ${'slim' if course else ''}">
