@@ -3,6 +3,7 @@
 <%page expression_filter="h" args="online_help_token, use_cookie_banner=False"/>
 
 <%namespace name='static' file='../static_content.html'/>
+<%namespace name='theme_path' file='/static/theme/indigo/lms/static/theme_path.html'/>
 <%namespace file='../main.html' import="login_query"/>
 <%!
 from django.urls import reverse
@@ -116,7 +117,7 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
 
                     <div class="col-auto logo">
                         <a href="#">
-                            <img src="/static/indigo/images/logo-funix.png" alt="logo" srcset="">
+                            <img src="${theme_path.static('images/logo-funix.png')}" alt="logo" srcset="">
                         </a>
                     </div>
 

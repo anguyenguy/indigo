@@ -28,7 +28,7 @@ enterprise_customer_link = get_enterprise_learner_portal(request)
   % else:
     <a href="${branding_api.get_home_url()}">
       <%block name="navigation_logo">
-        <img  src="/static/indigo/images/logo-funix.png" alt="${_("{platform_name} Home Page").format(platform_name=static.get_platform_name())}"/>
+        <img  src="/static/themes/indigo/images/logo-funix.png" alt="${_("{platform_name} Home Page").format(platform_name=static.get_platform_name())}"/>
       </%block>
         % if settings.LOGO_IMAGE_EXTRA_TEXT == 'edge':
             <span class="font-italic"> | EDGE</span>
