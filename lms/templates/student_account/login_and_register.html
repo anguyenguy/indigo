@@ -6,6 +6,7 @@
     from openedx.core.djangolib.js_utils import dump_js_escaped_json
 %>
 <%namespace name='static' file='/static_content.html'/>
+<%namespace name="dynamic" file="../static_dynamic_path.html"/>
 
 <%inherit file="../main.html" />
 
@@ -25,7 +26,7 @@
         }
     </%static:require_module>
     % if configuration_helpers.get_value('DISPLAY_TOS_IN_MODAL_ON_REGISTRATION_PAGE', False):
-    <script type="text/javascript" src="${static.url('js/student_account/tos_modal.js')}"></script>
+    <script type="text/javascript" src="${dynamic.path()}/js/student_account/tos_modal.js"></script>
     % endif
 </%block>
 
@@ -37,8 +38,8 @@
     % endfor
 </%block>
 
-<link href="${static.url('css/bootstrap/bootstrap.min.css')}" rel="stylesheet">
-<link rel="stylesheet" href="${static.url('css/style-login-page.css')}">
+<link href="${dynamic.path()}/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="${dynamic.path()}/css/style-login-page.css">
 
 
 
@@ -52,20 +53,20 @@
 
                         <div class="content form-wrapper" >
                             <div class="content-top">
-                                <a href="index-chuaDN.html"><img src="${static.url('images/logo-login-page.png')}" alt="logo"></a>
+                                <a href="index-chuaDN.html"><img src="${dynamic.path()}/images/logo-login-page.png" alt="logo"></a>
                                 <p>Chào mừng bạn</p>
-                                <a href="#" class="btn"><img src="${static.url('images/icon-googe-color.svg')}"> Đăng nhập với Google</a>
+                                <a href="#" class="btn"><img src="${dynamic.path()}/images/icon-googe-color.svg"> Đăng nhập với Google</a>
                                 <p>hoặc</p>
                             </div>
                             <form id="login" tabindex="-1" method="POST">
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Email</label>
-                                    <input type="email" class="form-control" id="login-email-styled" aria-describedby="login-email-desc login-email-validation-error" placeholder="Nhập địa chỉ emai">
+                                    <input type="email" class="form-control theme-font" id="login-email-styled" aria-describedby="login-email-desc login-email-validation-error" placeholder="Nhập địa chỉ emai">
                                     <small id="emailHelp" class="form-text text-muted">The email address you used to register with FUNiX</small>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Mật khẩu</label>
-                                    <input type="password" class="form-control" id="login-password-styled" placeholder="Nhập mật khẩu">
+                                    <input type="password" class="form-control theme-font" id="login-password-styled" placeholder="Nhập mật khẩu">
                                 </div>
                                 <!-- <a href="#" class="forgot-password">Quên mật khẩu?</a> -->
                                 <button type="submit" id="login-button-styled" class="btn btn-primary">Đăng nhập</button>
@@ -78,7 +79,7 @@
                         <!-- .content -->
 
                         <div class="background">
-                            <img src="${static.url('images/background.png')}">
+                            <img src="${dynamic.path()}/images/background.png">
                         </div>
                         <!-- .background -->
                     </div>
@@ -112,5 +113,5 @@
 </div>
 
 
-<script type="text/javascript" src="${static.url('js/jquery-1.12.4.js')}"></script>
-<script type="text/javascript" src="${static.url('js/login-page.js')}"></script>
+<script type="text/javascript" src="${dynamic.path()}/js/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="${dynamic.path()}/js/login-page.js"></script>

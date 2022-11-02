@@ -5886,3 +5886,25 @@ main {
 }
 
 /*# sourceMappingURL=style.css.map */
+a {
+  transition: all 0.3s !important; 
+}
+
+a, a:hover {
+  text-decoration: none !important;
+  transition: all 0.3s ease-in-out 0s !important;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+}
+
+
+.search-btn{
+  letter-spacing: 0px !important;
+  text-shadow: none !important;
+}
+
+.theme-font{
+  font-style: normal !important;
+}
