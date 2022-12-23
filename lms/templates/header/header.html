@@ -79,14 +79,13 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
                             <span class="line"></span>
                         </div>
                     </nav>  
-                    <div class="col-auto  right-ct">
+                    <div class="col-auto right-ct">
                         % if user.is_authenticated:
                             <%include file="navbar-authenticated.html" args="online_help_token=online_help_token"/>
                         % else:
                             <%include file="navbar-not-authenticated.html" args="online_help_token=online_help_token"/>
                         % endif
                     </div>
-                    <div class="mobile-menu hidden" aria-label=${_("More Options")} role="menu" id="mobile-menu"></div>
                 </div>
             </div>
         </div>

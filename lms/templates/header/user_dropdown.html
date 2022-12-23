@@ -1,6 +1,7 @@
 ## mako
 <%page expression_filter="h"/>
-<%namespace name='static' file='static_content.html'/>
+<%namespace name='static' file='../static_content.html'/>
+<%namespace name="dynamic" file="../static_dynamic_path.html"/>
 
 <%!
 import json
@@ -30,9 +31,8 @@ should_show_order_history = should_redirect_to_order_history_microfrontend() and
 
 <div class="nav-item hidden-mobile">
     <a href="${reverse('dashboard')}" class="menu-title">
-        <img data-hj-suppress class="user-image-frame" src="${profile_image_url}" alt="">
-        <span class="sr-only">${_("Dashboard for:")}</span>
-        <span data-hj-suppress class="username">${displayname}</span>
+        <img data-hj-suppress id="user-icon-header" class="user-image-frame" src="${profile_image_url}" alt="">
+        <img class="down-icon" src="${dynamic.path()}/images/down.png"
     </a>
     <ul>
         <li><a href="/dashboard">Dashboard</a></li>

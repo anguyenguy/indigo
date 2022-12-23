@@ -4110,22 +4110,7 @@ body.menu-open::before {
   align-items: center;
   padding: 0;
 }
-@media screen and (max-width: 480px) {
-  .site-header .right-ct {
-    align-items: flex-end !important;
-    padding-top: 36px;
-    padding-bottom: 20px !important;
-  }
-  .site-header .right-ct > img:first-child {
-    width: 32px;
-    height: 32px;
-  }
-  .site-header .right-ct > img:nth-child(2) {
-    width: 13px;
-    height: 7px;
-    margin-bottom: 10px;
-  }
-}
+
 .site-header .right-ct .btn-register {
   background: #fff;
   color: #1D293F;
@@ -4162,13 +4147,7 @@ body.menu-open::before {
 .site-header .right-ct .btn-login:hover {
   background: #10519d;
 }
-@media screen and (max-width: 480px) {
-  .site-header .right-ct .btn-login {
-    font-size: 14px;
-    line-height: 26px;
-    padding: 2px 14px;
-  }
-}
+
 
 main {
   margin-top: 100px;
@@ -4191,13 +4170,7 @@ main {
   background-color: #F8F8F9;
   padding: 98px 0 168px;
 }
-@media screen and (max-width: 480px) {
-  .home-banner {
-    padding: 36px 0 147px;
-    background-image: url(./images/home-banner-mb.png) !important;
-    background-position: center;
-  }
-}
+
 @media screen and (max-width: 480px) and (max-width: 390px) {
   .home-banner {
     background-position: initial;
@@ -5881,10 +5854,6 @@ main {
   height: fit-content;
 }
 
-.container {
-  padding: 0;
-}
-
 /*# sourceMappingURL=style.css.map */
 a {
   transition: all 0.3s !important; 
@@ -5909,3 +5878,52 @@ a, a:hover {
   font-style: normal !important;
 }
 
+/* Tablet */
+@media (min-width: 768px){
+  .container, section.outside-app, .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy, .view-profile .wrapper-profile-sections, .view-profile .badge-set-display {
+      padding: 0px;
+  }
+  .content-wrapper {
+    padding: 0px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .site-header .right-ct .btn-login {
+    font-size: 14px;
+    line-height: 26px;
+    padding: 2px 14px;
+  }
+  .site-header .right-ct {
+    align-items: flex-end !important;
+    padding-top: 36px;
+    padding-bottom: 28px !important;
+  }
+  .site-header .right-ct > img:first-child {
+    width: 32px;
+    height: 32px;
+  }
+  .site-header .right-ct > img:nth-child(2) {
+    width: 13px;
+    height: 7px;
+    margin-bottom: 10px;
+  }
+  .home-banner {
+    padding: 36px 0 147px;
+    background-image: url('../images/home-banner-mb.png') !important;
+    background-position: center;
+  }
+
+  .user-image-frame{
+    width: 30px;
+    height: 30px;
+    background-image: url('/static/indigo/images/profiles/default_30.png') !important;
+  }
+
+  .site-header .right-ct .down-icon {
+    width: 13px;
+    height: 7px;
+    margin-bottom: 10px;
+}
+}
