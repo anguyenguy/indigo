@@ -5911,14 +5911,14 @@ a, a:hover {
   }
   .home-banner {
     padding: 36px 0 147px;
-    background-image: url('../images/home-banner-mb.png') !important;
+    background-image: url('https://lilac.funix.edu.vn/static/themes/indigo/lms/static/images/home-banner-mb.png') !important;
     background-position: center;
   }
 
   .user-image-frame{
     width: 30px;
     height: 30px;
-    background-image: url('/static/indigo/images/profiles/default_30.png') !important;
+    background-image: url('https://lilac.funix.edu.vn/static/themes/static/indigo/images/profiles/default_30.png') !important;
   }
 
   .site-header .right-ct .down-icon {
