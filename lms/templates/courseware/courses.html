@@ -57,14 +57,17 @@
         </div>
         % endif
 
-        <div class="courses${'' if course_discovery_enabled else ' no-course-discovery'}" role="region" aria-label="${_('List of Courses')}">
-          <ul class="courses-listing courses-list">
-            %for course in courses:
-            <li class="courses-listing-item">
-              <%include file="../course.html" args="course=course" />
-            </li>
-            %endfor
-          </ul>
+        <div class="list-courses">    
+          <div class="container">
+              <h2 class=" title">Các khóa học</h2>
+              <div class=" content">
+                  <div class="row">
+                    %for course in courses:
+                      <%include file="../course.html" args="course=course" />
+                    %endfor
+                  </div>
+              </div>
+          </div>
         </div>
 
 

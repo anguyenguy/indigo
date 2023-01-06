@@ -16,16 +16,27 @@ from openedx.core.djangolib.markup import HTML, Text
           <div class="container">
               <h1 style="text-align: left;">HỌC NHANH - KIẾM TIỀN SỚM</h1>
               <p class="">FUNIX - Cơ hội học CNTT cho bất kỳ ai đam mê CNTT, muốn học CNTT, học lập trình một cách bài bản - chủ động - hiệu quả.</p>
-              <form action="#" method="POST" class="search-course">
+              <form class="search-course">
                   <label>
                       <img src="${dynamic.path()}/images/icon/Combined-Shape.svg">
-                      <input class="theme-font" style="box-shadow: inset 0px 0px 0px 0px red;" type="text" name="" placeholder="Tìm kiếm khóa học">
+                      <input id="search-input-custom" class="theme-font" style="box-shadow: inset 0px 0px 0px 0px red;" type="text" name="" placeholder="Tìm kiếm khóa học">
                   </label>
-                  <button class="btn search-btn" type="submit">Tìm kiếm</button>
+                  <button id="search-button-custom" class="btn search-btn">Tìm kiếm</button>
               </form>
           </div>
       </div>  <!-- home-banner -->
-
+      <!-- % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'): -->
+      <div class="course-search" style="display: none">
+        <form method="get" action="/courses">
+          <label><span class="sr">${_("Search for a course")}</span>
+            <input class="search-input" name="search_query" type="text" placeholder="${_("Search for a course")}"></input>
+          </label>
+          <button class="search-button" type="submit">
+            <span class="icon fa fa-search" aria-hidden="true"></span><span class="sr">${_("Search")}</span>
+          </button>
+        </form>
+      </div>
+      <!-- % endif -->
       </header>
       <%include file="${courses_list}" />
 
@@ -47,6 +58,15 @@ from openedx.core.djangolib.markup import HTML, Text
               $('#login').trigger("click");
          }
       })
+
+      var $button = $('#search-button-custom');
+
+      $button.click(function(){
+        $('.search-input').val($('#search-input-custom').val());
+        $('.search-button').click()
+        return false
+      });
+
    </script>
 </%block>
 
