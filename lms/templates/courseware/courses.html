@@ -10,16 +10,18 @@
 %>
 
 <%namespace name='static' file='../static_content.html'/>
+<%namespace name="dynamic" file="../static_dynamic_path.html"/>
 
-
-% if course_discovery_enabled:
 <%block name="header_extras">
   % for template_name in ["course_card", "filter_bar", "filter", "facet", "facet_option"]:
   <script type="text/template" id="${template_name}-tpl">
       <%static:include path="discovery/${template_name}.underscore" />
   </script>
   % endfor
-  <%static:require_module module_name="js/discovery/discovery_factory" class_name="DiscoveryFactory">
+  <script type="text/template" id="course_card-custom-tpl">
+    <%static:include path="discovery/course_card_custom.underscore" />
+  </script>
+  <%static:require_module module_name="indigo/js/discovery/discovery_factory" class_name="DiscoveryFactory">
     DiscoveryFactory(
       ${course_discovery_meanings | n, dump_js_escaped_json},
       getParameterByName('search_query'),
@@ -28,23 +30,35 @@
     );
   </%static:require_module>
 </%block>
-% endif
 
 <%block name="pagetitle">${_("Courses")}</%block>
 
 <main id="main" aria-label="Content" tabindex="-1">
+  <div class="home-banner" style="background-image: url('https://lilac.funix.edu.vn/static/indigo/images/home-banner.png')">
+    <div class="container">
+        <h1 style="text-align: left;">HỌC NHANH - KIẾM TIỀN SỚM</h1>
+        <p class="">FUNIX - Cơ hội học CNTT cho bất kỳ ai đam mê CNTT, muốn học CNTT, học lập trình một cách bài bản - chủ động - hiệu quả.</p>
+        <form action="#" method="POST" class="search-course">
+            <label>
+                <img src="${dynamic.path()}/images/icon/Combined-Shape.svg">
+                <input class="theme-font search-input-custom" style="box-shadow: inset 0px 0px 0px 0px red;" type="text" name="" placeholder="Tìm kiếm khóa học">
+            </label>
+            <button class="btn search-btn-custom" type="submit">Tìm kiếm</button>
+        </form>
+    </div>
+  </div> 
     <section class="find-courses">
       <section class="courses-container">
-        % if course_discovery_enabled:
+        <!-- % if course_discovery_enabled: -->
         <div id="discovery-form" role="search" aria-label="course" class="wrapper-search-context">
-          <div id="discovery-message" class="search-status-label"></div>
-          <form class="wrapper-search-input">
-            <label for="discovery-input" class="sr">${_('Search for a course')}</label>
-            <input id="discovery-input" class="discovery-input" placeholder="${_('Search for a course')}" type="text"/>
-            <button type="submit" class="button postfix discovery-submit" title="${_('Search')}">
-              <span class="icon fa fa-search" aria-hidden="true"></span>
+          <div id="discovery-message" class="search-status-label" style="text-align: center; margin-top:20px; font-weight: 500; font-size: 22px;"></div>
+          <form class="wrapper-search-input" style="text-align: center;">
+            <label for="discovery-input" class="sr" style="display: none;">${_('Search for a course')}</label>
+            <input id="discovery-input" style="display: none;" class="discovery-input" placeholder="${_('Search for a course')}" type="text"/>
+            <button type="submit" style="display: none;" class="button postfix discovery-submit" title="${_('Search')}">
+              <!-- <span class="icon fa fa-search" aria-hidden="true"></span> -->
               <div aria-live="polite" aria-relevant="all">
-                <div id="loading-indicator" class="loading-spinner hidden">
+                <div id="loading-indicator" style="display: none;" class="loading-spinner hidden">
                   <span class="icon fa fa-spinner fa-spin" aria-hidden="true"></span>
                   <span class="sr">${_('Loading')}</span>
                 </div>
@@ -53,15 +67,15 @@
           </form>
         </div>
 
-        <div id="filter-bar" class="filters hide-phone is-collapsed">
+        <div id="filter-bar" class="filters hide-phone is-collapsed" style="text-align: center; margin-top: 5px">
         </div>
-        % endif
+        <!-- % endif -->
 
         <div class="list-courses">    
           <div class="container">
-              <h2 class=" title">Các khóa học</h2>
-              <div class=" content">
-                  <div class="row">
+              <h2 class="title">${_('Các khóa học được tìm thấy')}</h2>
+              <div class="content courses course_discovery_enabled">
+                  <div class="row courses-listing">
                     %for course in courses:
                       <%include file="../course.html" args="course=course" />
                     %endfor
@@ -82,3 +96,31 @@
       </section>
     </section>
 </main>
+
+<%block name="js_extra">
+   <script type="text/javascript">
+
+      var initialString = "";
+
+      try {
+        initialString = window.location.href.split("?search_query=")[1];
+        $('.search-input-custom').val(initialString);
+      } catch (error) {
+        console.log(error)
+      }
+    
+      var $button = $('.search-btn-custom');
+
+      $button.click(function(){
+        $('#discovery-input').val($('.search-input-custom').val());
+        $('.discovery-submit').click()
+        $('#loading-indicator').show()
+          setTimeout(() => {
+            $('#loading-indicator').hide();
+          
+        }, 5000)
+        return false
+      });
+
+   </script>
+</%block>

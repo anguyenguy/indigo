@@ -78,11 +78,9 @@ from common.djangoapps.student.models import CourseEnrollment
       });
     });
   </%static:webpack>
-  % if settings.FEATURES.get('ENABLE_DASHBOARD_SEARCH'):
-    <%static:require_module module_name="course_search/js/dashboard_search_factory" class_name="DashboardSearchFactory">
-        DashboardSearchFactory();
-    </%static:require_module>
-  % endif
+  <%static:require_module module_name="course_search/js/dashboard_search_factory" class_name="DashboardSearchFactory">
+      DashboardSearchFactory();
+  </%static:require_module>
   % if redirect_message:
     <%static:require_module module_name="js/views/message_banner" class_name="MessageBannerView">
         var banner = new MessageBannerView({urgency: 'low', type: 'warning'});
@@ -159,12 +157,29 @@ from common.djangoapps.student.models import CourseEnrollment
                 <form action="#" method="POST" class="search-course">
                     <label>
                         <img src="${dynamic.path()}/images/icon/Combined-Shape.svg">
-                        <input class="theme-font" style="box-shadow: inset 0px 0px 0px 0px red;" type="text" name="" placeholder="Tìm kiếm khóa học">
+                        <input class="theme-font" style="box-shadow: inset 0px 0px 0px 0px red;" type="text" name="" placeholder="Tìm kiếm nội dung khóa học">
                     </label>
                     <button class="btn search-btn" type="submit">Tìm kiếm</button>
                 </form>
             </div>
-          </div>  
+          </div> 
+          <!-- % if settings.FEATURES.get('ENABLE_DASHBOARD_SEARCH'): -->
+          <div id="dashboard-search-bar" class="search-bar dashboard-search-bar" role="search" aria-label="Dashboard">
+            <form class="search-form">
+              <label for="dashboard-search-input">${_('Search Your Courses')}</label>
+              <div class="search-field-wrapper">
+                <input id="dashboard-search-input" type="text" class="search-field"/>
+                <button type="submit" class="search-button" title="${_('Search')}">
+                  <span class="icon fa fa-search" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="cancel-button" title="${_('Clear search')}">
+                  <span class="icon fa fa-remove" aria-hidden="true"></span>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div id="dashboard-search-results" class="search-results dashboard-search-results"></div>
+        <!-- % endif  -->
         </header>
     </section>
     <div class="container">
