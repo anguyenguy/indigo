@@ -21,7 +21,7 @@
   <script type="text/template" id="course_card-custom-tpl">
     <%static:include path="discovery/course_card_custom.underscore" />
   </script>
-  <%static:require_module module_name="indigo/js/discovery/discovery_factory" class_name="DiscoveryFactory">
+  <%static:require_module module_name="js/discovery/discovery_factory_custom" class_name="DiscoveryFactory">
     DiscoveryFactory(
       ${course_discovery_meanings | n, dump_js_escaped_json},
       getParameterByName('search_query'),
