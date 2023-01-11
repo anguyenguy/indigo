@@ -2,7 +2,7 @@
     'use strict';
 
     define(['backbone', 'js/discovery/models/search_state', 'js/discovery/collections/filters',
-        'js/discovery/views/search_form', 'indigo/js/discovery/views/courses_listing',
+        'js/discovery/views/search_form', 'js/discovery/views/courses_listing_custom',
         'js/discovery/views/filter_bar', 'js/discovery/views/refine_sidebar'],
         function(Backbone, SearchState, Filters, SearchForm, CoursesListing, FilterBar, RefineSidebar) {
             return function(meanings, searchQuery, userLanguage, userTimezone) {

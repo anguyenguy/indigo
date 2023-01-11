@@ -4,7 +4,7 @@
         'underscore',
         'backbone',
         'gettext',
-        'indigo/js/discovery/views/course_card',
+        'js/discovery/views/course_card_custom',
         'edx-ui-toolkit/js/utils/html-utils'
     ], function($, _, Backbone, gettext, CourseCardView, HtmlUtils) {
         'use strict';
