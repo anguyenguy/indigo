@@ -1,0 +1,25 @@
+<%def name="online_help_token()"><% return "fx_programs" %></%def>
+<%namespace name='static' file='static_content.html'/>
+<%!
+from django.utils.translation import gettext as _
+from django.urls import reverse
+from six import text_type
+%>
+<%page args="fx_programs" expression_filter="h"/>
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+  <div class="course">
+      <div class="course-img">
+          <a href="#">
+              <img src="${fx_programs.image}" alt="${fx_programs.name} ${fx_programs.program_id}" />
+          </a>
+      </div>
+      <h3 class="course-title"><a style="text-decoration: none;" href="#">${fx_programs.name}</a></h3>
+      <a style="text-decoration: none;" href="#" class="course-link">${fx_programs.name} <i class="fas fa-long-arrow-right"></i></a>
+  </div>
+</div>
+
+
+<%static:require_module_async module_name="js/dateutil_factory" class_name="DateUtilFactory">
+    DateUtilFactory.transform(iterationKey=".localized_datetime");
+</%static:require_module_async>
