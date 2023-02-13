@@ -1,24 +1,31 @@
-<%page expression_filter="h"/> <%inherit file="main.html" /> <%namespace
-name='static' file='static_content.html'/> <%! from django.utils.translation
-import ugettext as _ %> <%namespace name="dynamic"
-file="static_dynamic_path.html"/>
+<%page expression_filter="h"/> 
+<%inherit file="main.html" /> 
+<%namespace name='static' file='static_content.html'/> 
+<%! from django.utils.translation import ugettext as _ %> 
+<%namespace name="dynamic" file="static_dynamic_path.html"/>
 <link rel="stylesheet" href="${dynamic.path()}/css/program.css" />
 
-<div class="list-courses">
-  <div class="container-fluid">
-    <h2 class="title">
-      ${_("Programs")}
-      <span class="text-dark" style="font-size: 22px"
-        >(<span id="program_count"></span> certificate)</span
-      >
-    </h2>
-    <div class="row">
-      <div class="card-deck">
-        <!-- Để trống cho các thẻ chứa dữ liệu khóa học -->
+<main id="main" aria-label="Content" tabindex="-1">
+  <div class="container">
+    <div class="list-courses-login">
+      <h2 class="title">
+        ${_("Programs")}
+        <span class="text-dark" style="font-size: 22px"
+          >(<span id="program_count"></span> certificate)</span
+        >
+      </h2>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card-deck">
+              <!-- Để trống cho các thẻ chứa dữ liệu khóa học -->
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</main>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
