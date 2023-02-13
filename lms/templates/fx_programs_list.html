@@ -35,19 +35,14 @@
       type: "GET",
       url: "http://studio.local.overhang.io:8001/fxprograms/api/programs",
       success: function (response) {
-        console.log("response", response);
 
         var programs = response;
-        console.log("programs", programs);
-
         let program_id = Object.keys(programs)[0];
         let program_name = programs[program_id].name;
-        console.log("program_id", program_id);
-        console.log("program_name", program_name);
-
+       
         let metadata = programs[program_id].metadata;
-        console.log("metadata", metadata);
 
+        //Đếm số course của chương trình
         countItems(metadata);
 
         for (let course in metadata) {
@@ -56,10 +51,6 @@
           const course_image_url = courseData.course_image_url || "";
           const course_name = courseData.display_name || "";
           const course_id = courseData.id || "";
-
-          console.log("course_id", course_id);
-          console.log("course_name", course_name);
-          console.log("course_image_url", course_image_url);
 
           var card = `
                     <div class="card">
