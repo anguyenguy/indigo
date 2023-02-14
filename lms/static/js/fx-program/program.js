@@ -23,7 +23,7 @@ $(document).ready(function () {
                 <div class="col-md-4">
                     <div class="card-deck">
                         <div class="card" >
-                            <img src="${course_image_url}" class="card-img-top" style="padding: 15px; border-radius: 20px" alt="Ảnh khóa học" />
+                            <img src="http://viettelidc.com.vn//uploadimage/Root/root/1113.png" class="card-img-top" style="padding: 15px; border-radius: 20px" alt="Ảnh khóa học" />
                             <div class="card-body ">
                                 <h5 class="card-title">${course_name}</h5>
                                 
