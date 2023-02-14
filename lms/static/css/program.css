@@ -1,35 +1,7 @@
-.list-courses-login .course-login .course-left .course-img img {
-    height: 244px;
-    width: 338px;
+.program_title {
+  line-height: 30px;
+  padding: 20px 10px;
 }
-
-.list-courses-login .course-login .course-left .course-img {
-    margin-bottom: 0px;
-    position: relative;
-    margin-right: 30px;
-}
-
-.list-courses-login .course-login .course-left {
-    display: flex;
-}
-
-.list-courses-login .course-login {
-    display: flex;
-    background: #FFFFFF;
-    border: 1px solid #F2F2F2;
-    border-radius: 5px;
-    padding: 18px;
-    margin-bottom: 44px;
-    justify-content: space-between;
-    position: relative;
-}
-
-.list-courses-login .course-login .course-left .course-decs {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-a {
-    transition: all 0.3s;
+.program_content {
+  width: 100%;
 }
