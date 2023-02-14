@@ -20,23 +20,26 @@ $(document).ready(function () {
         const course_id = courseData.id || "";
 
         var card = `
-                <div class="card" style="width:370px; height:440px;">
-                    <img src="${course_image_url}" class="card-img-top" style="padding: 15px; border-radius: 20px" alt="Ảnh khóa học" />
-                    <div class="card-body ">
-                        <h5 class="card-title">${course_name}</h5>
-                        <div class="card-footer d-flex justify-content-between">
-                            <div class="d-flex flex-column">
-                                <p class="card-text mb-1">${program_id}</p>
-                                <p class="card-text">${course_id}</p>
+                <div class="col-md-4">
+                    <div class="card-deck">
+                        <div class="card" >
+                            <img src="${course_image_url}" class="card-img-top" style="padding: 15px; border-radius: 20px" alt="Ảnh khóa học" />
+                            <div class="card-body ">
+                                <h5 class="card-title">${course_name}</h5>
+                                
+                                <div class="card-footer d-flex justify-content-between">
+                                    <div class="d-flex flex-column text-left">
+                                        <span>${program_id}</span>
+                                        <span>${course_id.split(":")[1]}</span>
+                                    </div>
+                                    <a href="../courses/${course_id}" class="btn btn-link"><i class="fa fa-long-arrow-right" style="font-size: 20px; transform: scale(1.5)" aria-hidden="true"></i></a>
+                                </div>
                             </div>
-                            <a href="courses/${course_id}" class="stretched-link">
-                                <i class="fa fa-long-arrow-right" style="font-size: 20px; transform: scale(1.5)" aria-hidden="true"></i>
-                            </a>
                         </div>
                     </div>
                 </div>
                     `;
-        $(".card-deck").append(card);
+        $(".program_content").append(card);
       }
     },
   });
