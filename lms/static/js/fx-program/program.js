@@ -36,7 +36,7 @@ $(document).ready(function () {
                     </div>
                 </div>
                     `;
-        $(".col-md-4").append(card);
+        $(".card-deck").append(card);
       }
     },
   });
