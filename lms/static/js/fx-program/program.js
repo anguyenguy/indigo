@@ -1,7 +1,9 @@
+const currentOrigin = window.location.origin;
+
 $(document).ready(function () {
   $.ajax({
     type: "GET",
-    url: "http://studio.local.overhang.io:8001/fxprograms/api/programs",
+    url: `${currentOrigin}/fxprograms/api/programs`,
     success: function (response) {
       var programs = response;
       let program_id = Object.keys(programs)[0];
@@ -30,7 +32,6 @@ $(document).ready(function () {
                                 <div class="card-footer d-flex justify-content-between">
                                     <div class="d-flex flex-column text-left">
                                         <span>${program_id}</span>
-                                        <span>${course_id.split(":")[1]}</span>
                                     </div>
                                     <a href="../courses/${course_id}" class="btn btn-link"><i class="fa fa-long-arrow-right" style="font-size: 20px; transform: scale(1.5)" aria-hidden="true"></i></a>
                                 </div>
