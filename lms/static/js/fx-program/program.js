@@ -28,7 +28,7 @@ $(document).ready(function () {
                             <div class="position-absolute top-0 start-0 p-2 ${courseData.language === 'en' ? 'bg-primary text-white' : 'bg-danger text-white'}" style="top: 15px;">
                               <span>${courseData.language === 'en' ? 'Tiếng Anh' : 'Tiếng Việt'}</span>
                             </div>
-                            <img src="http://viettelidc.com.vn//uploadimage/Root/root/115.png" class="card-img-top w-100 img-fluid" style="padding: 15px; border-radius: 20px" alt="Ảnh khóa học" />
+                            <img src="${course_image_url}" class="card-img-top w-100 img-fluid" style="padding: 15px; border-radius: 20px" alt="Ảnh khóa học" />
 
                           </div>
                             <div class="card-body ">
