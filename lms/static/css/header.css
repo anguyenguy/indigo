@@ -110,7 +110,7 @@ a:hover {
 }
 .is-login.site-header .menu-footer ul li a {
   text-decoration: none;
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-size: 22px;
   font-weight: 400;
   font-family: "San Francisco Display";
@@ -125,7 +125,7 @@ a:hover {
   content: "";
   width: 233px;
   height: 1px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   position: absolute;
   top: 0px;
   left: 50%;
@@ -138,7 +138,7 @@ a:hover {
 }
 .copyright .container {
   padding-top: 30px;
-  border-top: 1px solid #E5E5E5;
+  border-top: 1px solid #e5e5e5;
 }
 @media screen and (max-width: 375px) {
   .copyright .container {
@@ -175,13 +175,13 @@ a:hover {
   font-weight: 400;
   font-size: 16px;
   text-align: center;
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 @media screen and (max-width: 375px) {
   .copyright p:last-child {
     font-size: 12px;
     text-align: left;
-    color: #0E529F;
+    color: #0e529f;
   }
 }
 @media screen and (max-width: 414px) {
@@ -206,7 +206,7 @@ a:hover {
   font-family: "San Francisco Display";
   font-weight: 400;
   font-size: 20px;
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
 .detail-course .detail-course-left ul li::after {
   content: "";
@@ -232,10 +232,10 @@ a:hover {
   top: 13px;
   left: 0;
   height: 40px;
-  background: #4897F1;
+  background: #4897f1;
   border-radius: 0px 4px 4px 0px;
   padding: 8px 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Roboto";
   font-weight: 500;
   font-size: 20px;
@@ -268,7 +268,7 @@ a:hover {
   border-radius: 5px;
   padding: 10px 32px;
   height: 51px;
-  background: #0D7DFC;
+  background: #0d7dfc;
   border-radius: 5px;
   border: none;
   font-weight: 500;
@@ -278,13 +278,13 @@ a:hover {
   box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.12);
 }
 .detail-course .detail-course-center .funix-box button.no-active {
-  background: #B2B2B2;
+  background: #b2b2b2;
 }
 .detail-course .detail-course-center .funix-box span {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
-  color: #B2B2B2;
+  color: #b2b2b2;
 }
 .detail-course .detail-course-center .funix-box p {
   display: block;
@@ -292,7 +292,7 @@ a:hover {
   font-family: "San Francisco Display";
   font-weight: 400;
   font-size: 18px;
-  color: #F44336;
+  color: #f44336;
   text-align: right;
   margin-top: 17px;
 }
@@ -301,7 +301,7 @@ a:hover {
 }
 .detail-course .detail-course-center .content-box article {
   padding-top: 19px;
-  border-top: 4px solid #F2F2F2;
+  border-top: 4px solid #f2f2f2;
 }
 .detail-course .detail-course-center .content-box article h4 {
   font-family: "San Francisco Display";
@@ -327,7 +327,7 @@ a:hover {
   color: #333333;
 }
 .detail-course .detail-course-right .top-social {
-  border-bottom: 0.74188px solid #E5E5E5;
+  border-bottom: 0.74188px solid #e5e5e5;
   margin-bottom: 18px;
 }
 .detail-course .detail-course-right .top-social ul {
@@ -386,7 +386,7 @@ a:hover {
   color: #343434;
 }
 .is-login.site-header .header-left .menu-header li.active a {
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .is-login.site-header .header-left .menu-header li.active::after {
   content: "";
@@ -395,7 +395,7 @@ a:hover {
   left: 0;
   width: 100%;
   height: 5px;
-  background-color: #0D7DFC;
+  background-color: #0d7dfc;
 }
 .is-login.site-header .header-right {
   cursor: pointer;
@@ -429,7 +429,7 @@ a:hover {
   position: absolute;
   bottom: 101px;
   right: 0;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 6px 21px rgba(0, 0, 0, 0.11);
   border-radius: 10px;
   display: none;
@@ -464,13 +464,19 @@ a:hover {
   height: 6px;
   width: 10em;
 }
-.list-courses-login .posi-course .posi-course-item progress::-webkit-progress-value {
-  background-color: #0D7DFC;
+.list-courses-login
+  .posi-course
+  .posi-course-item
+  progress::-webkit-progress-value {
+  background-color: #0d7dfc;
   border-radius: 7px 0 0 7px;
 }
-.list-courses-login .posi-course .posi-course-item progress::-webkit-progress-bar {
+.list-courses-login
+  .posi-course
+  .posi-course-item
+  progress::-webkit-progress-bar {
   border-radius: 7px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 .list-courses-login .posi-course .posi-course-item label {
   margin: 0;
@@ -479,7 +485,7 @@ a:hover {
   font-weight: 400;
   font-size: 22px;
   line-height: 178.6%;
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
 .list-courses-login .posi-course .posi-course-item label span {
   font-weight: 600;
@@ -513,8 +519,8 @@ a:hover {
   color: #333333;
 }
 .list-courses-login .course {
-  background: #FFFFFF;
-  border: 1px solid #F2F2F2;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
   border-radius: 8px;
   padding: 18px 18px 27px;
   margin-bottom: 50px;
@@ -526,7 +532,7 @@ a:hover {
   }
 }
 .list-courses-login .course:hover {
-  border: 1px solid #0D7DFC;
+  border: 1px solid #0d7dfc;
   border-radius: 8px;
 }
 .list-courses-login .course .course-img {
@@ -539,31 +545,33 @@ a:hover {
   font-size: 20px;
   line-height: 25px;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   padding: 7px 18px 8px 17px;
   position: absolute;
-  background: #4897F1;
+  background: #4897f1;
   border-radius: 0px 4px 4px 0px;
   left: 0;
   top: 12px;
 }
 .list-courses-login .course .course-img span.lang-en {
-  background: #FFAE33;
+  background: #ffae33;
 }
 .list-courses-login .course .course-img img {
   max-width: 100%;
 }
-.list-courses-login .course-title, .list-courses-login .course-title > a {
+.list-courses-login .course-title,
+.list-courses-login .course-title > a {
   font-weight: 500;
-  font-size: 26px;
+  font-size: 23px;
   line-height: 33px;
   color: #333333;
   min-height: 66px;
   margin-bottom: 20px;
 }
 @media screen and (max-width: 480px) {
-  .list-courses-login .course-title, .list-courses-login .course-title > a {
+  .list-courses-login .course-title,
+  .list-courses-login .course-title > a {
     font-size: 24px;
     line-height: 30px;
     min-height: 60px;
@@ -576,19 +584,19 @@ a:hover {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: #B2B2B2;
+  color: #b2b2b2;
   display: flex;
   justify-content: space-between;
 }
 .list-courses-login .course-link i,
 .list-courses-login .course-link span {
-  color: #0D7DFC;
+  color: #0d7dfc;
   font-size: 16px;
 }
 .list-courses-login .course-login {
   display: flex;
-  background: #FFFFFF;
-  border: 1px solid #F2F2F2;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
   border-radius: 5px;
   padding: 18px;
   margin-bottom: 44px;
@@ -636,13 +644,23 @@ a:hover {
 }
 @media screen and (max-width: 480px) {
   .list-courses-login .course-login .course-left .course-decs .course-title,
-.list-courses-login .course-login .course-left .course-decs .course-title > a {
+  .list-courses-login
+    .course-login
+    .course-left
+    .course-decs
+    .course-title
+    > a {
     font-size: 24px;
     line-height: 30px;
     margin-bottom: 0;
   }
 }
-.list-courses-login .course-login .course-left .course-decs .course-title > img {
+.list-courses-login
+  .course-login
+  .course-left
+  .course-decs
+  .course-title
+  > img {
   display: none;
 }
 @media screen and (max-width: 480px) {
@@ -653,7 +671,12 @@ a:hover {
     display: flex;
     justify-content: space-between;
   }
-  .list-courses-login .course-login .course-left .course-decs .course-title > img {
+  .list-courses-login
+    .course-login
+    .course-left
+    .course-decs
+    .course-title
+    > img {
     display: block;
     width: 22px;
     height: 22px;
@@ -665,15 +688,20 @@ a:hover {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: #B2B2B2;
+  color: #b2b2b2;
   display: flex;
   justify-content: space-between;
 }
 .list-courses-login .course-login .course-left .course-decs-link i,
 .list-courses-login .course-login .course-left .course-decs-link svg {
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
-.list-courses-login .course-login .course-left .course-decs .course-information span {
+.list-courses-login
+  .course-login
+  .course-left
+  .course-decs
+  .course-information
+  span {
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 500;
@@ -682,22 +710,40 @@ a:hover {
   /* or 39px */
   color: #999999;
 }
-.list-courses-login .course-login .course-left .course-decs .course-information span:first-child {
+.list-courses-login
+  .course-login
+  .course-left
+  .course-decs
+  .course-information
+  span:first-child {
   margin-right: 50px;
 }
 @media screen and (max-width: 991px) {
-  .list-courses-login .course-login .course-left .course-decs .course-information span:first-child {
+  .list-courses-login
+    .course-login
+    .course-left
+    .course-decs
+    .course-information
+    span:first-child {
     margin-right: 0;
   }
 }
 @media screen and (max-width: 991px) {
-  .list-courses-login .course-login .course-left .course-decs .course-information {
+  .list-courses-login
+    .course-login
+    .course-left
+    .course-decs
+    .course-information {
     display: flex;
     flex-direction: column;
   }
 }
 @media screen and (max-width: 480px) {
-  .list-courses-login .course-login .course-left .course-decs .course-information {
+  .list-courses-login
+    .course-login
+    .course-left
+    .course-decs
+    .course-information {
     display: none;
   }
 }
@@ -717,11 +763,11 @@ a:hover {
   font-size: 20px;
   line-height: 25px;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   padding: 7px 18px 8px 17px;
   position: absolute;
-  background: #4897F1;
+  background: #4897f1;
   border-radius: 0px 4px 4px 0px;
   left: 0;
   top: 12px;
@@ -732,7 +778,7 @@ a:hover {
   }
 }
 .list-courses-login .course-login .course-left .course-img span.lang-en {
-  background: #FFAE33;
+  background: #ffae33;
 }
 .list-courses-login .course-login .course-left .course-img img {
   max-width: 100%;
@@ -773,7 +819,7 @@ a:hover {
   padding: 10px 32px;
   width: 192px;
   height: 50px;
-  background: #0D7DFC;
+  background: #0d7dfc;
   border-radius: 5px;
 }
 @media screen and (max-width: 480px) {
@@ -791,7 +837,7 @@ a:hover {
   font-weight: 500;
   font-size: 24px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   align-items: center;
 }
 @media screen and (max-width: 480px) {
@@ -838,12 +884,12 @@ a:hover {
   font-weight: 400;
   font-size: 18px;
   line-height: 123.6%;
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .view-objectives .breadcrumbs li.current {
   font-family: "San Francisco Display";
   font-style: normal;
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-size: 18px;
   line-height: 22px;
   font-weight: 500;
@@ -855,7 +901,7 @@ a:hover {
   content: "\f105";
   font-family: FontAwesome;
   line-height: 20px;
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .view-objectives .breadcrumbs li:last-child::after {
   display: none;
@@ -890,7 +936,7 @@ a:hover {
   top: 46px;
   width: 1px;
   height: 570px;
-  background-color: #E9E9E9;
+  background-color: #e9e9e9;
 }
 @media screen and (max-width: 991px) {
   .view-objectives .courses-tabs .nav-tabs::before {
@@ -910,9 +956,15 @@ a:hover {
 .view-objectives .courses-tabs .nav-tabs.collapse-tabs ul li {
   text-align: center;
 }
-.view-objectives .courses-tabs .nav-tabs.collapse-tabs ul li a span.active:first-child {
+.view-objectives
+  .courses-tabs
+  .nav-tabs.collapse-tabs
+  ul
+  li
+  a
+  span.active:first-child {
   display: inline-block;
-  color: #B2B2B2;
+  color: #b2b2b2;
   font-size: 26px;
 }
 .view-objectives .courses-tabs .nav-tabs .title-tabs {
@@ -921,7 +973,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #e5e5e5;
 }
 @media screen and (max-width: 991px) {
   .view-objectives .courses-tabs .nav-tabs .title-tabs {
@@ -939,11 +991,11 @@ a:hover {
   font-weight: 500;
   font-size: 22px;
   text-align: center;
-  color: #0D7DFC;
+  color: #0d7dfc;
   margin-bottom: 0;
 }
 .view-objectives .courses-tabs .nav-tabs .title-tabs i {
-  color: #B2B2B2;
+  color: #b2b2b2;
   font-size: 13px;
 }
 .view-objectives .courses-tabs .nav-tabs ul {
@@ -968,24 +1020,30 @@ a:hover {
   }
 }
 .view-objectives .courses-tabs .nav-tabs ul li a {
-  font-family: #0D7DFC;
+  font-family: #0d7dfc;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
 .view-objectives .courses-tabs .nav-tabs ul li a span:last-child {
   line-height: 22px;
 }
 .view-objectives .courses-tabs .nav-tabs ul li.active {
-  background-color: #F8F9FC;
+  background-color: #f8f9fc;
 }
 .view-objectives .courses-tabs .nav-tabs ul li.active a {
-  color: #0D7DFC;
+  color: #0d7dfc;
   font-weight: 500;
 }
-.view-objectives .courses-tabs .nav-tabs ul li.active a span:first-child::before {
-  color: #0D7DFC;
+.view-objectives
+  .courses-tabs
+  .nav-tabs
+  ul
+  li.active
+  a
+  span:first-child::before {
+  color: #0d7dfc;
 }
 .view-objectives .courses-tabs .nav-tabs ul li.active::after {
   content: "";
@@ -994,7 +1052,7 @@ a:hover {
   top: 0;
   width: 4px;
   height: 100%;
-  background-color: #0D7DFC;
+  background-color: #0d7dfc;
 }
 @media screen and (max-width: 991px) {
   .view-objectives .courses-tabs .nav-tabs ul li.active::after {
@@ -1002,7 +1060,8 @@ a:hover {
   }
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .nav-tabs ul li:first-child::before, .view-objectives .courses-tabs .nav-tabs ul li:nth-child(3)::before {
+  .view-objectives .courses-tabs .nav-tabs ul li:first-child::before,
+  .view-objectives .courses-tabs .nav-tabs ul li:nth-child(3)::before {
     content: "";
     width: 20px;
     position: absolute;
@@ -1078,7 +1137,7 @@ a:hover {
   }
 }
 .view-objectives .courses-tabs .tab-content .tab-content-item .transcripts {
-  border-top: 1px solid #E5E5E5;
+  border-top: 1px solid #e5e5e5;
   padding-top: 11px;
   margin-bottom: 24px;
 }
@@ -1087,138 +1146,297 @@ a:hover {
     border: none;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .transcripts span {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .transcripts
+  span {
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 178.6%;
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .transcripts .link-download {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .transcripts
+  .link-download {
   margin-bottom: 14px;
   display: block;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .transcripts .link-download img {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .transcripts
+  .link-download
+  img {
   margin-right: 16px;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .transcripts .link-download span {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .transcripts
+  .link-download
+  span {
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 29px;
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play {
   margin-bottom: 23px;
   padding: 20px;
   width: 100%;
-  background: #FFFFFF;
-  border: 1px solid #E5E5E5;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
   border-radius: 2px;
 }
 @media screen and (max-width: 375px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play {
     padding: 8px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .translate {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .translate {
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .video-main {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .content-video
+  .video-main {
   margin-bottom: 20px;
   height: 486px;
 }
 @media screen and (max-width: 1279px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .content-video
+    .video-main {
     height: 456px;
   }
 }
 @media screen and (max-width: 1199px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .content-video
+    .video-main {
     height: 355px;
   }
 }
 @media screen and (max-width: 767px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .content-video
+    .video-main {
     height: 263px;
   }
 }
 @media screen and (max-width: 575px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .content-video
+    .video-main {
     height: 283px;
   }
 }
 @media screen and (max-width: 480px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .content-video
+    .video-main {
     height: 230px;
   }
 }
 @media screen and (max-width: 414px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .content-video
+    .video-main {
     height: 192px;
   }
 }
 @media screen and (max-width: 375px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .content-video
+    .video-main {
     height: 186px;
   }
 }
 @media screen and (max-width: 360px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .content-video
+    .video-main {
     height: 186px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .video-main video {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .content-video
+  .video-main
+  video {
   width: 100%;
   height: 100%;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .video-main video[poster] {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .content-video
+  .video-main
+  video[poster] {
   object-fit: cover;
   width: 100%;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .video-sourch {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .content-video
+  .video-sourch {
   position: absolute;
   visibility: hidden;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .close-view {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .content-video
+  .close-view {
   display: none;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .control {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .content-video
+  .control {
   overflow-y: scroll;
   max-height: 250px;
 }
 @media screen and (max-width: 767px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .control {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .content-video
+    .control {
     max-height: 260px;
   }
 }
 @media screen and (max-width: 482px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .control {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .content-video
+    .control {
     max-height: 280px;
   }
 }
 @media screen and (max-width: 414px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .control {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .content-video
+    .control {
     max-height: 320px;
   }
 }
 @media screen and (max-width: 375px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .control {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .content-video
+    .control {
     max-height: 320px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .control .video-item {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .content-video
+  .control
+  .video-item {
   cursor: pointer;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .content-video .control .video-item.active-bg {
-  background: #F8F9FC;
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .content-video
+  .control
+  .video-item.active-bg {
+  background: #f8f9fc;
   border-radius: 2px;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play.active {
   position: fixed;
   top: 0;
   right: 0;
@@ -1234,21 +1452,38 @@ a:hover {
   border: none;
 }
 @media screen and (max-width: 1024px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active {
     align-items: flex-start;
   }
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active {
     align-items: center;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active.show {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play.active.show {
   opacity: 1;
   visibility: visible;
   transition: all 0.3s ease-in-out;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .overlay {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play.active
+  .overlay {
   cursor: pointer;
   position: fixed;
   top: 0;
@@ -1258,7 +1493,12 @@ a:hover {
   background: rgba(0, 0, 0, 0.2);
   opacity: 0.8;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play.active
+  .content-video {
   width: 900px;
   background-color: #fff;
   position: relative;
@@ -1267,86 +1507,178 @@ a:hover {
   padding: 20px;
   position: relative;
   margin-top: 55px;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 2px;
 }
 @media screen and (width: 1366px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video {
     margin-top: 0;
   }
 }
 @media screen and (width: 1024px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video {
     width: 763px;
     margin-top: 65px;
   }
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video {
     margin-top: 0px;
     padding: 8px;
     border-radius: 8px;
   }
 }
 @media screen and (width: 768px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video {
     margin-top: -100px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .video-main {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play.active
+  .content-video
+  .video-main {
   width: 100%;
 }
 @media screen and (max-width: 1279px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video
+    .video-main {
     height: 486px;
   }
 }
 @media screen and (max-width: 1199px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video
+    .video-main {
     height: 486px;
   }
 }
 @media screen and (width: 1024px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video
+    .video-main {
     height: 410px;
   }
 }
 @media screen and (max-width: 935px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video
+    .video-main {
     height: 475px;
   }
 }
 @media screen and (max-width: 767px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video
+    .video-main {
     height: 390px;
   }
 }
 @media screen and (max-width: 575px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video
+    .video-main {
     height: 283px;
   }
 }
 @media screen and (max-width: 480px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video
+    .video-main {
     height: 230px;
   }
 }
 @media screen and (max-width: 414px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video
+    .video-main {
     height: 192px;
   }
 }
 @media screen and (max-width: 375px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video
+    .video-main {
     height: 186px;
   }
 }
 @media screen and (max-width: 360px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .video-main {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video
+    .video-main {
     height: 186px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .close-view {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play.active
+  .content-video
+  .close-view {
   position: absolute;
   top: -74px;
   right: 0px;
@@ -1360,44 +1692,90 @@ a:hover {
   cursor: pointer;
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .close-view {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video
+    .close-view {
     right: 50%;
     transform: translateX(50%);
     top: calc(100% + 13px);
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .close-view i {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play.active
+  .content-video
+  .close-view
+  i {
   font-size: 25px;
-  color: #C4C4C4;
+  color: #c4c4c4;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .control {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play.active
+  .content-video
+  .control {
   max-height: 200px;
   overflow-y: scroll;
 }
 @media screen and (max-width: 414px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .control {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play.active
+    .content-video
+    .control {
     min-height: 230px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play.active .content-video .modal-view-video {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play.active
+  .content-video
+  .modal-view-video {
   display: none;
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play {
     border-radius: 8px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .modal-view-video {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .modal-view-video {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 18px;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .modal-view-video button {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .modal-view-video
+  button {
   height: 51px;
   width: 530px;
   transition: all 0.3s ease-in-out;
-  background: #0D7DFC;
+  background: #0d7dfc;
   border-radius: 5px;
   font-family: "San Francisco Display";
   font-style: normal;
@@ -1405,34 +1783,65 @@ a:hover {
   font-size: 25px;
   line-height: 31px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .modal-view-video button:hover {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .modal-view-video
+  button:hover {
   background: #10519d;
   transition: all 0.3s ease-in-out;
 }
 @media screen and (max-width: 414px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .modal-view-video button {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .modal-view-video
+    button {
     height: 45px;
     width: 208px;
     font-size: 20px;
     margin-bottom: 25px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .video-item .title-video {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .video-item
+  .title-video {
   height: auto;
   padding: 15px 5px 15px 19px;
   display: flex;
   align-items: center;
 }
 @media screen and (max-width: 540px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .video-item .title-video {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .video-item
+    .title-video {
     align-items: flex-start;
     padding-left: 5px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .video-item .title-video .status-video {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .video-item
+  .title-video
+  .status-video {
   width: 30px;
   height: 30px;
   display: flex;
@@ -1440,23 +1849,59 @@ a:hover {
   align-items: center;
 }
 @media screen and (max-width: 540px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .video-item .title-video .status-video {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .video-item
+    .title-video
+    .status-video {
     width: 16px;
     height: 16px;
     align-items: flex-start;
   }
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .video-item .title-video .status-video img {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .video-item
+    .title-video
+    .status-video
+    img {
     padding-top: 3px;
     width: 14px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .video-item .title-video .play {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .video-item
+  .title-video
+  .play {
   display: none;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .video-item .title-video .done {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .video-item
+  .title-video
+  .done {
   display: none;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .video-item .title-video span {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-video-play
+  .video-item
+  .title-video
+  span {
   margin-left: 16px;
   font-family: "San Francisco Display";
   font-style: normal;
@@ -1467,7 +1912,14 @@ a:hover {
   width: calc(100% - 46px);
 }
 @media screen and (max-width: 540px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-video-play .video-item .title-video span {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-video-play
+    .video-item
+    .title-video
+    span {
     margin-left: 10px;
   }
 }
@@ -1480,7 +1932,7 @@ a:hover {
   font-weight: 400;
   font-size: 20px;
   line-height: 36px;
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
 .view-objectives .courses-tabs .tab-content .tab-content-item .item-decs h5 {
   font-family: "San Francisco Display";
@@ -1509,28 +1961,53 @@ a:hover {
     margin-bottom: 0;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-decs .link-decs {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-decs
+  .link-decs {
   display: block;
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 123.6%;
-  color: #0E529F;
+  color: #0e529f;
   margin-bottom: 38px;
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-decs .link-decs {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-decs
+    .link-decs {
     margin-bottom: 10px;
   }
-  .view-objectives .courses-tabs .tab-content .tab-content-item .item-decs .link-decs.fix-mg-top {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .item-decs
+    .link-decs.fix-mg-top {
     margin-top: 16px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-decs .link-decs.fix-mg {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-decs
+  .link-decs.fix-mg {
   margin-bottom: 16px;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-decs .sub-decs {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-decs
+  .sub-decs {
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 400;
@@ -1538,10 +2015,23 @@ a:hover {
   line-height: 178.6%;
   color: #333333;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-decs .sub-decs ul {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-decs
+  .sub-decs
+  ul {
   margin-left: 20px;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .item-decs .sub-decs ul li {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .item-decs
+  .sub-decs
+  ul
+  li {
   margin-left: 15px;
   list-style: disc;
 }
@@ -1557,15 +2047,32 @@ a:hover {
     margin-left: 0;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .pagination .prev {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .pagination
+  .prev {
   display: flex;
   align-items: center;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .pagination .prev a {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .pagination
+  .prev
+  a {
   display: flex;
   align-items: center;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .pagination .prev span {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .pagination
+  .prev
+  span {
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 500;
@@ -1573,24 +2080,47 @@ a:hover {
   line-height: 123.6%;
   /* or 32px */
   /* Primary */
-  color: #0D7DFC;
+  color: #0d7dfc;
   margin-left: 12px;
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .pagination .prev span {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .pagination
+    .prev
+    span {
     font-size: 24px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .pagination .next {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .pagination
+  .next {
   display: flex;
   align-items: center;
   margin-left: 66px;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .pagination .next a {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .pagination
+  .next
+  a {
   display: flex;
   align-items: center;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .pagination .next span {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .pagination
+  .next
+  span {
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 500;
@@ -1598,11 +2128,17 @@ a:hover {
   line-height: 123.6%;
   /* or 32px */
   /* Primary */
-  color: #0D7DFC;
+  color: #0d7dfc;
   margin-right: 12px;
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .pagination .next span {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .pagination
+    .next
+    span {
     font-size: 24px;
   }
 }
@@ -1615,15 +2151,31 @@ a:hover {
     flex-direction: column;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-head .quiz-number {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-head
+  .quiz-number {
   display: flex;
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-head .quiz-number {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-head
+    .quiz-number {
     width: 100%;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-head .quiz-number .number-item {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-head
+  .quiz-number
+  .number-item {
   cursor: pointer;
   position: relative;
   align-items: center;
@@ -1642,51 +2194,113 @@ a:hover {
   margin-right: 20px;
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-head .quiz-number .number-item {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-head
+    .quiz-number
+    .number-item {
     margin-right: 17px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-head .quiz-number .number-item.active {
-  background-color: #0D7DFC;
-  color: #FFFFFF;
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-head
+  .quiz-number
+  .number-item.active {
+  background-color: #0d7dfc;
+  color: #ffffff;
   border: none;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-head .quiz-number .number-item.color-correct {
-  background-color: #4CAF50;
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-head
+  .quiz-number
+  .number-item.color-correct {
+  background-color: #4caf50;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-head .quiz-number .number-item.color-wrong {
-  background-color: #E73100;
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-head
+  .quiz-number
+  .number-item.color-wrong {
+  background-color: #e73100;
 }
 @media screen and (max-width: 767px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-head .quiz-number .number-item {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-head
+    .quiz-number
+    .number-item {
     width: 46px;
     height: 46px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-head .quiz-number .number-item:first-child::before {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-head
+  .quiz-number
+  .number-item:first-child::before {
   content: "";
   position: absolute;
   top: 0;
   left: -16px;
   width: 1px;
   height: 50px;
-  background-color: #E9E9E9;
+  background-color: #e9e9e9;
   margin-right: 16px;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-head .quiz-number .number-item-arrow {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-head
+  .quiz-number
+  .number-item-arrow {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50px;
   border-radius: 50%;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-head .quiz-number .number-item-arrow svg {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-head
+  .quiz-number
+  .number-item-arrow
+  svg {
   font-size: 28px;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-head .quiz-number .number-item-arrow path {
-  color: #B2B2B2;
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-head
+  .quiz-number
+  .number-item-arrow
+  path {
+  color: #b2b2b2;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .main-title .fix-color {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-main
+  .main-title
+  .fix-color {
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 400;
@@ -1696,7 +2310,13 @@ a:hover {
   display: inline-block;
   margin-left: 14px;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .main-title h5 {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-main
+  .main-title
+  h5 {
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 500;
@@ -1706,27 +2326,62 @@ a:hover {
   color: #333333;
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .main-title h5 {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-main
+    .main-title
+    h5 {
     margin-top: 21px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-main
+  .quiz-list {
   margin-top: 40px;
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-main
+    .quiz-list {
     margin-top: 6px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-main
+  .quiz-list
+  .quiz-list-item {
   margin-bottom: 30px;
 }
 @media screen and (max-width: 375px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-main
+    .quiz-list
+    .quiz-list-item {
     margin-bottom: 22px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item span {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-main
+  .quiz-list
+  .quiz-list-item
+  span {
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 400;
@@ -1738,46 +2393,104 @@ a:hover {
   display: block;
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item span {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-main
+    .quiz-list
+    .quiz-list-item
+    span {
     line-height: 31px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item fieldset label {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-main
+  .quiz-list
+  .quiz-list-item
+  fieldset
+  label {
   cursor: pointer;
-  background: #FFFFFF;
-  border: 1px solid #E3E2E2;
+  background: #ffffff;
+  border: 1px solid #e3e2e2;
   border-radius: 8px;
   display: flex;
   padding: 14px 18px;
   margin-bottom: 16px;
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item fieldset label {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-main
+    .quiz-list
+    .quiz-list-item
+    fieldset
+    label {
     align-items: center;
   }
 }
 @media screen and (max-width: 375px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item fieldset label {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-main
+    .quiz-list
+    .quiz-list-item
+    fieldset
+    label {
     margin-bottom: 10px;
     padding: 10px;
     min-height: 70px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item fieldset label input {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-main
+  .quiz-list
+  .quiz-list-item
+  fieldset
+  label
+  input {
   width: 25px;
   margin-right: 24px;
-  color: #E5E5E5;
-  background-color: #E5E5E5;
+  color: #e5e5e5;
+  background-color: #e5e5e5;
   cursor: pointer;
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item fieldset label input {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-main
+    .quiz-list
+    .quiz-list-item
+    fieldset
+    label
+    input {
     margin-right: 12px;
     width: 21px;
     height: 21px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item fieldset label span {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-main
+  .quiz-list
+  .quiz-list-item
+  fieldset
+  label
+  span {
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 400;
@@ -1787,36 +2500,92 @@ a:hover {
   margin-bottom: 0;
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item fieldset label span {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-main
+    .quiz-list
+    .quiz-list-item
+    fieldset
+    label
+    span {
     width: calc(100% - 33px);
   }
 }
 @media screen and (max-width: 767px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item fieldset label span {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-main
+    .quiz-list
+    .quiz-list-item
+    fieldset
+    label
+    span {
     width: 100%;
     line-height: 25px;
     font-size: 16px;
   }
 }
 @media screen and (max-width: 375px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item fieldset label span {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-main
+    .quiz-list
+    .quiz-list-item
+    fieldset
+    label
+    span {
     display: inline-flex;
     align-items: center;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item fieldset label.add-bd-cr {
-  border: 1px solid #4CAF50;
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-main
+  .quiz-list
+  .quiz-list-item
+  fieldset
+  label.add-bd-cr {
+  border: 1px solid #4caf50;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .quiz-list-item fieldset label.add-bd-wr {
-  border: 1px solid #F44336;
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-main
+  .quiz-list
+  .quiz-list-item
+  fieldset
+  label.add-bd-wr {
+  border: 1px solid #f44336;
 }
 @media screen and (max-width: 911px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .btn-quiz {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-main
+    .quiz-list
+    .btn-quiz {
     display: flex;
     justify-content: center;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .btn-quiz button {
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-main
+  .quiz-list
+  .btn-quiz
+  button {
   cursor: no-drop;
   transition: all 0.3s ease-in-out;
   font-family: "San Francisco Display";
@@ -1826,23 +2595,44 @@ a:hover {
   line-height: 123.6%;
   /* identical to box height, or 31px */
   text-align: center;
-  color: #FFFFFF;
-  background: #B2B2B2;
+  color: #ffffff;
+  background: #b2b2b2;
   border-radius: 8px;
   padding: 10px 42px;
   border: none;
 }
 @media screen and (max-width: 991px) {
-  .view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .btn-quiz button {
+  .view-objectives
+    .courses-tabs
+    .tab-content
+    .tab-content-item
+    .quiz-main
+    .quiz-list
+    .btn-quiz
+    button {
     min-width: 208px;
   }
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .btn-quiz button.show {
-  background-color: #0D7DFC;
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-main
+  .quiz-list
+  .btn-quiz
+  button.show {
+  background-color: #0d7dfc;
   cursor: pointer;
 }
-.view-objectives .courses-tabs .tab-content .tab-content-item .quiz-main .quiz-list .btn-quiz button.show:hover {
-  background-color: #0E529F;
+.view-objectives
+  .courses-tabs
+  .tab-content
+  .tab-content-item
+  .quiz-main
+  .quiz-list
+  .btn-quiz
+  button.show:hover {
+  background-color: #0e529f;
 }
 
 .discover-new-content.content {
@@ -1865,7 +2655,7 @@ a:hover {
 ::-webkit-scrollbar-thumb {
   border-radius: 33px;
   background-color: rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 0 1px #C4C4C4;
+  -webkit-box-shadow: 0 0 1px #c4c4c4;
 }
 
 .over-none {
@@ -1924,7 +2714,7 @@ a {
   margin-top: 57px;
   padding: 18px 22px 0;
   width: 300px;
-  background: #FFFFFF;
+  background: #ffffff;
   filter: drop-shadow(0px 14px 28px rgba(0, 0, 0, 0.08));
   border-radius: 14px;
   right: 0;
@@ -1935,7 +2725,7 @@ a {
 .col-auto.right-ct ul::before {
   content: "\e909";
   display: inline-block;
-  color: #FFFFFF;
+  color: #ffffff;
   position: absolute;
   top: -30px;
   right: 43px;
@@ -1947,7 +2737,7 @@ a {
   padding: 24px 0;
   list-style-type: none;
   text-align: center;
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #e5e5e5;
   font-weight: 400;
   font-size: 24px;
   line-height: 123.6%;
@@ -1956,11 +2746,11 @@ a {
   border-bottom: none;
 }
 .col-auto.right-ct ul li a {
-  color: #4C4C4C;
+  color: #4c4c4c;
   display: block;
 }
 .col-auto.right-ct ul li a:hover {
-  color: #0D7DFC;
+  color: #0d7dfc;
   font-weight: 500;
 }
 @media screen and (max-width: 767px) {
@@ -2004,7 +2794,7 @@ a {
 
 ul.tab--controll {
   list-style-type: none;
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #e5e5e5;
   overflow: hidden;
   overflow-x: auto;
   overflow: -moz-scrollbars-none;
@@ -2046,7 +2836,7 @@ ul.tab--controll::-webkit-scrollbar {
   font-weight: 400;
   font-size: 24px;
   line-height: 123.6%;
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-family: "San Francisco Display";
   padding-bottom: 29px;
   position: relative;
@@ -2062,7 +2852,7 @@ ul.tab--controll::-webkit-scrollbar {
   position: absolute;
   bottom: 0px;
   left: 0;
-  background-color: #0D7DFC;
+  background-color: #0d7dfc;
   transition: all 0.3s;
 }
 @media screen and (max-width: 767px) {
@@ -2072,10 +2862,10 @@ ul.tab--controll::-webkit-scrollbar {
 }
 .profile ul.tab--controll li.active a {
   font-weight: 600;
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .profile ul.tab--controll li a:hover {
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .profile ul.tab--controll li.active a::before,
 .profile ul.tab--controll li a:hover::before {
@@ -2126,7 +2916,7 @@ ul.tab--controll::-webkit-scrollbar {
   width: 1170px;
   left: 0;
   height: 8px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 @media screen and (max-width: 540px) {
   .profile .tab--content .tab--left .item--content {
@@ -2165,17 +2955,33 @@ ul.tab--controll::-webkit-scrollbar {
     font-size: 16px;
   }
 }
-.profile .tab--content .tab--left .item--content.delete-myacc .desc-delete p span {
-  color: #0D7DFC;
+.profile
+  .tab--content
+  .tab--left
+  .item--content.delete-myacc
+  .desc-delete
+  p
+  span {
+  color: #0d7dfc;
 }
-.profile .tab--content .tab--left .item--content.delete-myacc .desc-delete p:last-child {
+.profile
+  .tab--content
+  .tab--left
+  .item--content.delete-myacc
+  .desc-delete
+  p:last-child {
   margin-bottom: 0;
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
-.profile .tab--content .tab--left .item--content.delete-myacc .desc-delete .btn-danger {
+.profile
+  .tab--content
+  .tab--left
+  .item--content.delete-myacc
+  .desc-delete
+  .btn-danger {
   display: inline-block;
-  background: #F44336;
-  border: 2px solid #F44336;
+  background: #f44336;
+  border: 2px solid #f44336;
   border-radius: 8px;
   padding: 0 25px;
   min-width: 305px;
@@ -2184,16 +2990,26 @@ ul.tab--controll::-webkit-scrollbar {
   font-weight: 500;
   font-size: 25px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "San Francisco Display";
   margin-top: 65px;
 }
-.profile .tab--content .tab--left .item--content.delete-myacc .desc-delete .btn-danger:hover {
-  background-color: #FFFFFF;
-  color: #F44336;
+.profile
+  .tab--content
+  .tab--left
+  .item--content.delete-myacc
+  .desc-delete
+  .btn-danger:hover {
+  background-color: #ffffff;
+  color: #f44336;
 }
 @media screen and (max-width: 540px) {
-  .profile .tab--content .tab--left .item--content.delete-myacc .desc-delete .btn-danger {
+  .profile
+    .tab--content
+    .tab--left
+    .item--content.delete-myacc
+    .desc-delete
+    .btn-danger {
     margin-top: 40px;
     min-width: 250px;
     height: 50px;
@@ -2248,8 +3064,16 @@ ul.tab--controll::-webkit-scrollbar {
   font-size: 24px;
   margin-left: 27px;
 }
-.profile .tab--content .tab--left .item--content input[type=date]::-webkit-inner-spin-button,
-.profile .tab--content .tab--left .item--content input[type=date]::-webkit-calendar-picker-indicator {
+.profile
+  .tab--content
+  .tab--left
+  .item--content
+  input[type="date"]::-webkit-inner-spin-button,
+.profile
+  .tab--content
+  .tab--left
+  .item--content
+  input[type="date"]::-webkit-calendar-picker-indicator {
   display: none;
   -webkit-appearance: none;
 }
@@ -2260,8 +3084,8 @@ ul.tab--controll::-webkit-scrollbar {
   height: 80px;
   line-height: 80px;
   padding: 15px 30px;
-  background: #FFFFFF;
-  border: 1px solid #E5E5E5;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
   border-radius: 16px;
   font-family: "San Francisco Display";
   font-weight: 400;
@@ -2275,7 +3099,7 @@ ul.tab--controll::-webkit-scrollbar {
 }
 @media screen and (max-width: 540px) {
   .profile .tab--content .tab--left .item--content input,
-.profile .tab--content .tab--left .item--content select {
+  .profile .tab--content .tab--left .item--content select {
     padding: 13px 20px;
     height: 60px;
     line-height: 60px;
@@ -2304,7 +3128,7 @@ ul.tab--controll::-webkit-scrollbar {
   transform: translateY(-50%);
   right: 50px;
   font-size: 32px;
-  color: #0D7DFC;
+  color: #0d7dfc;
   pointer-events: none;
 }
 @media screen and (max-width: 540px) {
@@ -2327,7 +3151,7 @@ ul.tab--controll::-webkit-scrollbar {
   font-weight: 400;
   font-size: 24px;
   line-height: 178.6%;
-  color: #0D7DFC;
+  color: #0d7dfc;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -2359,8 +3183,8 @@ ul.tab--controll::-webkit-scrollbar {
 }
 .profile .tab--content .tab-right ul {
   list-style-type: none;
-  background: #FFFFFF;
-  border: 1px solid #E5E5E5;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
   border-radius: 8px;
   text-align: center;
   padding: 0px 20px;
@@ -2375,7 +3199,7 @@ ul.tab--controll::-webkit-scrollbar {
 .profile .tab--content .tab-right ul li {
   padding: 34px 0;
   display: block;
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #e5e5e5;
 }
 .profile .tab--content .tab-right ul li:last-child {
   border-bottom: none;
@@ -2387,14 +3211,14 @@ ul.tab--controll::-webkit-scrollbar {
   font-size: 26px;
   line-height: 123.6%;
   text-align: center;
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
 .profile .tab--content .tab-right ul li.current--item a {
   font-weight: 500;
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .profile .tab--content .tab-right ul li:hover a {
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 
 .view-course .breadcrumbs {
@@ -2415,10 +3239,10 @@ ul.tab--controll::-webkit-scrollbar {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .view-course .breadcrumbs li.current {
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
@@ -2430,7 +3254,7 @@ ul.tab--controll::-webkit-scrollbar {
   content: "\f105";
   font-family: FontAwesome;
   line-height: 20px;
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .view-course .breadcrumbs li:last-child::after {
   display: none;
@@ -2451,7 +3275,7 @@ ul.tab--controll::-webkit-scrollbar {
 }
 @media screen and (max-width: 767px) {
   .view-course ul.tab--controll {
-    border-bottom: 1px solid #E5E5E5;
+    border-bottom: 1px solid #e5e5e5;
   }
 }
 @media screen and (max-width: 540px) {
@@ -2478,7 +3302,7 @@ ul.tab--controll::-webkit-scrollbar {
   font-weight: 400;
   font-size: 20px;
   line-height: 123.6%;
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-family: "San Francisco Display";
   padding-bottom: 10px;
   position: relative;
@@ -2493,7 +3317,7 @@ ul.tab--controll::-webkit-scrollbar {
   position: absolute;
   bottom: 0px;
   left: 0;
-  background-color: #0D7DFC;
+  background-color: #0d7dfc;
   transition: all 0.3s;
 }
 .view-course ul.tab--controll li.active a::before,
@@ -2504,10 +3328,10 @@ ul.tab--controll::-webkit-scrollbar {
 }
 .view-course ul.tab--controll li.active a {
   font-weight: 500;
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .view-course ul.tab--controll li a:hover {
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 @media screen and (max-width: 540px) {
   .view-course ul.tab--controll li {
@@ -2556,7 +3380,7 @@ ul.tab--controll::-webkit-scrollbar {
   }
 }
 .view-course .tab--content ul li a {
-  color: #0D7DFC;
+  color: #0d7dfc;
   word-break: break-all;
 }
 .view-course .tab--content .view-course-course {
@@ -2616,31 +3440,57 @@ ul.tab--controll::-webkit-scrollbar {
   display: none;
 }
 @media screen and (max-width: 991px) {
-  .view-course .tab--content .view-course-course .tab--item-left ul.bookmark-up {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    ul.bookmark-up {
     display: flex;
     margin: 25px 0 20px;
   }
-  .view-course .tab--content .view-course-course .tab--item-left ul.bookmark-up li {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    ul.bookmark-up
+    li {
     margin-top: 0;
     padding-left: 0;
   }
-  .view-course .tab--content .view-course-course .tab--item-left ul.bookmark-up li:last-child {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    ul.bookmark-up
+    li:last-child {
     margin-left: 60px;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .tab--item-title {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .tab--item-title {
   justify-content: space-between;
   align-items: center;
 }
 @media screen and (max-width: 991px) {
-  .view-course .tab--content .view-course-course .tab--item-left .tab--item-title {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .tab--item-title {
     display: block !important;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .tab--item-box-desc {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .tab--item-box-desc {
   padding: 23px 50px 23px 24px;
-  background: #FFFFFF;
-  border: 1px solid #E5E5E5;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
   border-radius: 10px;
   margin-top: 36px;
   font-family: "San Francisco Display";
@@ -2651,27 +3501,51 @@ ul.tab--controll::-webkit-scrollbar {
   position: relative;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .tab--item-box-desc {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .tab--item-box-desc {
     margin-top: 18px;
     padding: 20px 10px 17px;
     font-size: 14px;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .tab--item-box-desc p {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .tab--item-box-desc
+  p {
   margin-bottom: 0;
 }
-.view-course .tab--content .view-course-course .tab--item-left .tab--item-box-desc a {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .tab--item-box-desc
+  a {
   line-height: 123.6%;
-  color: #0E529F;
+  color: #0e529f;
   margin-top: 8px;
   display: inline-block;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .tab--item-box-desc a {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .tab--item-box-desc
+    a {
     margin-top: 0;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .tab--item-box-desc .icon-remove {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .tab--item-box-desc
+  .icon-remove {
   position: absolute;
   font-size: 24px;
   top: 8px;
@@ -2679,155 +3553,375 @@ ul.tab--controll::-webkit-scrollbar {
   cursor: pointer;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .tab--item-box-desc .icon-remove {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .tab--item-box-desc
+    .icon-remove {
     right: 8px;
     top: 8px;
     font-size: 16px;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item {
   margin-top: 62px;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item {
     margin-top: 18px;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course {
   padding: 30px 0;
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #e5e5e5;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course {
     padding: 15px 0;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course:first-child {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course:first-child {
   padding-top: 0;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course:first-child {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course:first-child {
     padding-bottom: 30px;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course:last-child {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course:last-child {
   padding-bottom: 0;
   border-bottom: none;
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-content {
   margin-top: 30px;
   display: none;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-content {
     margin-top: 15px;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-content
+  ul {
   position: relative;
   margin-left: 10px;
   margin-bottom: 0;
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-content
+  ul
+  li {
   list-style-type: none;
   padding-left: 46px;
   margin-left: 0;
   position: relative;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-content
+    ul
+    li {
     padding-left: 40px;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li::before {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-content
+  ul
+  li::before {
   content: "";
   position: absolute;
   left: -4px;
   width: 10px;
   height: 10px;
-  background-color: #0D7DFC;
+  background-color: #0d7dfc;
   border-radius: 100%;
   top: 15px;
   z-index: 1;
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li::after {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-content
+  ul
+  li::after {
   content: "";
   width: 1px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   top: 20px;
   left: 0;
   height: 100%;
   position: absolute;
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li + li {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-content
+  ul
+  li
+  + li {
   padding-top: 54px;
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li + li::before {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-content
+  ul
+  li
+  + li::before {
   top: 69px;
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li + li:last-child::after {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-content
+  ul
+  li
+  + li:last-child::after {
   height: 55px;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li + li {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-content
+    ul
+    li
+    + li {
     padding-top: 43px;
   }
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li + li::before {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-content
+    ul
+    li
+    + li::before {
     top: 57px;
   }
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li + li:last-child::after {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-content
+    ul
+    li
+    + li:last-child::after {
     height: 43px;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li h5 {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-content
+  ul
+  li
+  h5 {
   font-family: "San Francisco Display";
   font-weight: 400;
   font-size: 24px;
   line-height: 178.6%;
-  color: #0D7DFC;
+  color: #0d7dfc;
   margin-bottom: 0;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li h5 {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-content
+    ul
+    li
+    h5 {
     font-size: 20px;
   }
 }
 @media screen and (max-width: 412px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li h5 {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-content
+    ul
+    li
+    h5 {
     min-height: 72px;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li p {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-content
+  ul
+  li
+  p {
   font-weight: 500;
   font-size: 20px;
   line-height: 178.6%;
-  color: #B2B2B2;
+  color: #b2b2b2;
   margin-top: 14px;
   margin-bottom: 0;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-content ul li p {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-content
+    ul
+    li
+    p {
     font-size: 18px;
     margin-top: 0;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title {
   align-items: center;
   position: relative;
   cursor: pointer;
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title.active .right::after {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title.active
+  .right::after {
   content: "\e9a3";
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-title {
     transition: all 0.3s;
   }
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title.active {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-title.active {
     padding-top: 13px;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .percent {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title
+  .percent {
   position: relative;
   font-size: 48px;
   width: 1em;
@@ -2835,27 +3929,49 @@ ul.tab--controll::-webkit-scrollbar {
   border-radius: 50%;
   float: left;
   margin: 0 16px 0 0;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .percent {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-title
+    .percent {
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .percent::after {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title
+  .percent::after {
   position: absolute;
   top: 0.08em;
   left: 0.08em;
   display: block;
   content: " ";
   border-radius: 50%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 0.84em;
   height: 0.84em;
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .percent span {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title
+  .percent
+  span {
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -2869,19 +3985,45 @@ ul.tab--controll::-webkit-scrollbar {
   text-align: center;
   white-space: nowrap;
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .percent .slice {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title
+  .percent
+  .slice {
   position: absolute;
   width: 1em;
   height: 1em;
   clip: rect(0, 1em, 1em, 0.5em);
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .percent .slice .bar {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title
+  .percent
+  .slice
+  .bar {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .percent .slice .bar {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title
+  .percent
+  .slice
+  .bar {
   position: absolute;
-  border: 0.08em solid #0D7DFC;
+  border: 0.08em solid #0d7dfc;
   width: 1em;
   height: 1em;
   clip: rect(0, 0.5em, 1em, 0);
@@ -2890,20 +4032,63 @@ ul.tab--controll::-webkit-scrollbar {
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .percent.percent-full .slice .bar,
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .percent.percent-full .slice .fill {
-  border-color: #0E9F2E !important;
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title
+  .percent.percent-full
+  .slice
+  .bar,
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title
+  .percent.percent-full
+  .slice
+  .fill {
+  border-color: #0e9f2e !important;
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .percent.percent-full .icon-tick-gr {
-  color: #0E9F2E;
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title
+  .percent.percent-full
+  .icon-tick-gr {
+  color: #0e9f2e;
   font-size: 20px;
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .percent.gt50 .slice {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title
+  .percent.gt50
+  .slice {
   clip: rect(auto, auto, auto, auto);
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .percent.gt50 .slice .fill {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title
+  .percent.gt50
+  .slice
+  .fill {
   position: absolute;
-  border: 0.08em solid #0D7DFC;
+  border: 0.08em solid #0d7dfc;
   width: 1em;
   height: 1em;
   clip: rect(0, 0.5em, 1em, 0);
@@ -2912,7 +4097,14 @@ ul.tab--controll::-webkit-scrollbar {
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title h3.title {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title
+  h3.title {
   font-family: "San Francisco Display";
   font-weight: 400;
   font-size: 22px;
@@ -2923,7 +4115,14 @@ ul.tab--controll::-webkit-scrollbar {
   max-width: calc(100% - 244px);
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title h3.title {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-title
+    h3.title {
     font-size: 20px;
     padding-left: 64px;
     padding-right: 35px;
@@ -2931,24 +4130,45 @@ ul.tab--controll::-webkit-scrollbar {
   }
 }
 @media screen and (max-width: 410px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title h3.title {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-title
+    h3.title {
     min-height: 50px;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .right {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title
+  .right {
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 123.6%;
-  color: #B2B2B2;
+  color: #b2b2b2;
   position: relative;
   padding-right: 57px;
   padding-left: 20px;
   width: 180px;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .right {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-title
+    .right {
     width: 100%;
     padding-left: 64px;
     margin-top: 7px;
@@ -2956,7 +4176,14 @@ ul.tab--controll::-webkit-scrollbar {
     font-size: 18px;
   }
 }
-.view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .right::after {
+.view-course
+  .tab--content
+  .view-course-course
+  .tab--item-left
+  .list-course-item
+  .item-course
+  .accor-title
+  .right::after {
   content: "\e9a4";
   position: absolute;
   font-family: "icomoon" !important;
@@ -2964,10 +4191,17 @@ ul.tab--controll::-webkit-scrollbar {
   top: 50%;
   transform: translateY(-50%);
   font-size: 24px;
-  color: #E5E5E5;
+  color: #e5e5e5;
 }
 @media screen and (max-width: 540px) {
-  .view-course .tab--content .view-course-course .tab--item-left .list-course-item .item-course .accor-title .right::after {
+  .view-course
+    .tab--content
+    .view-course-course
+    .tab--item-left
+    .list-course-item
+    .item-course
+    .accor-title
+    .right::after {
     font-size: 20px;
   }
 }
@@ -2976,8 +4210,8 @@ ul.tab--controll::-webkit-scrollbar {
   max-width: calc(100% - 1000px);
   width: 100%;
   padding: 18px 8px 20px;
-  background: #FFFFFF;
-  border: 1px solid #E5E5E5;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
   border-radius: 8px;
   height: max-content;
   margin-top: 93px;
@@ -3008,7 +4242,7 @@ ul.tab--controll::-webkit-scrollbar {
   text-align: center;
   margin-bottom: 0;
   padding-bottom: 15px;
-  border-bottom: 1px solid #E9E9E9;
+  border-bottom: 1px solid #e9e9e9;
 }
 .view-course .tab--content .view-course-sysllabus {
   padding-top: 38px;
@@ -3100,8 +4334,8 @@ ul.tab--controll::-webkit-scrollbar {
 }
 .view-course .tab--content .view-course-sysllabus .tab-right ul {
   list-style-type: none;
-  background: #FFFFFF;
-  border: 1px solid #E5E5E5;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
   border-radius: 8px;
   text-align: center;
   padding: 0px 20px;
@@ -3117,7 +4351,7 @@ ul.tab--controll::-webkit-scrollbar {
 .view-course .tab--content .view-course-sysllabus .tab-right ul li {
   padding: 34px 0;
   display: block;
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #e5e5e5;
   margin-left: 0;
   line-height: normal;
 }
@@ -3131,7 +4365,7 @@ ul.tab--controll::-webkit-scrollbar {
   font-size: 26px;
   line-height: 123.6%;
   text-align: left;
-  color: #4C4C4C;
+  color: #4c4c4c;
   display: inline-block;
 }
 @media screen and (max-width: 1200px) {
@@ -3139,12 +4373,18 @@ ul.tab--controll::-webkit-scrollbar {
     font-size: 22px;
   }
 }
-.view-course .tab--content .view-course-sysllabus .tab-right ul li.current--item a {
+.view-course
+  .tab--content
+  .view-course-sysllabus
+  .tab-right
+  ul
+  li.current--item
+  a {
   font-weight: 600;
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .view-course .tab--content .view-course-sysllabus .tab-right ul li:hover a {
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 @media screen and (max-width: 1200px) {
   .view-course .tab--content .view-course-sysllabus .tab-right ul li {
@@ -3169,7 +4409,7 @@ ul.tab--controll::-webkit-scrollbar {
   font-weight: 400;
   font-size: 20px;
   line-height: 178.6%;
-  color: #F44336;
+  color: #f44336;
   margin-left: 25px;
 }
 @media screen and (max-width: 1200px) {
@@ -3241,7 +4481,7 @@ ul.tab--controll::-webkit-scrollbar {
 @media screen and (max-width: 767px) {
   .view-course .tab--content .view-course-designer .img {
     width: 133px;
-    border: 1px solid #0E529F;
+    border: 1px solid #0e529f;
     padding: 2px;
     border-radius: 100%;
   }
@@ -3362,11 +4602,11 @@ ul.tab--controll::-webkit-scrollbar {
     display: block;
     position: absolute;
     z-index: 1;
-    background: #0D7DFC;
+    background: #0d7dfc;
     border-radius: 0px 6px 6px 0px;
     width: 34px;
     height: 34px;
-    color: #FFFFFF;
+    color: #ffffff;
     left: 0;
     top: 175px;
     font-size: 23px;
@@ -3380,8 +4620,8 @@ ul.tab--controll::-webkit-scrollbar {
 }
 .view-course .tab--content .view-course-progress .tab-right ul {
   padding: 21px 23px 23px;
-  background: #FFFFFF;
-  border: 1px solid #E5E5E5;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
   border-radius: 8px;
   margin-bottom: 0;
 }
@@ -3426,14 +4666,26 @@ ul.tab--controll::-webkit-scrollbar {
 }
 @media screen and (max-width: 991px) {
   .view-course .tab--content .view-course-progress .tab-right ul li a {
-    color: #4C4C4C;
+    color: #4c4c4c;
   }
 }
-.view-course .tab--content .view-course-progress .tab-right ul li.current--item a {
+.view-course
+  .tab--content
+  .view-course-progress
+  .tab-right
+  ul
+  li.current--item
+  a {
   font-weight: 500;
 }
-.view-course .tab--content .view-course-progress .tab-right ul li.current--item a {
-  color: #0D7DFC;
+.view-course
+  .tab--content
+  .view-course-progress
+  .tab-right
+  ul
+  li.current--item
+  a {
+  color: #0d7dfc;
 }
 @media screen and (max-width: 991px) {
   .view-course .tab--content .view-course-progress .tab-right ul li {
@@ -3451,28 +4703,70 @@ ul.tab--controll::-webkit-scrollbar {
     top: 50%;
     width: 20px;
     transform: translateY(-50%);
-    color: #B2B2B2;
+    color: #b2b2b2;
     transition: all 0.3s;
   }
-  .view-course .tab--content .view-course-progress .tab-right ul li.current--item a::before {
-    color: #0D7DFC;
+  .view-course
+    .tab--content
+    .view-course-progress
+    .tab-right
+    ul
+    li.current--item
+    a::before {
+    color: #0d7dfc;
   }
-  .view-course .tab--content .view-course-progress .tab-right ul li:nth-of-type(1) a::before {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .tab-right
+    ul
+    li:nth-of-type(1)
+    a::before {
     content: "\e904";
   }
-  .view-course .tab--content .view-course-progress .tab-right ul li:nth-of-type(2) a::before {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .tab-right
+    ul
+    li:nth-of-type(2)
+    a::before {
     content: "\e906";
   }
-  .view-course .tab--content .view-course-progress .tab-right ul li:nth-of-type(3) a::before {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .tab-right
+    ul
+    li:nth-of-type(3)
+    a::before {
     content: "\e905";
   }
-  .view-course .tab--content .view-course-progress .tab-right ul li:nth-of-type(4) a::before {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .tab-right
+    ul
+    li:nth-of-type(4)
+    a::before {
     content: "\e907";
   }
-  .view-course .tab--content .view-course-progress .tab-right ul li:nth-of-type(5) a::before {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .tab-right
+    ul
+    li:nth-of-type(5)
+    a::before {
     content: "\e908";
   }
-  .view-course .tab--content .view-course-progress .tab-right ul li:nth-of-type(6) a::before {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .tab-right
+    ul
+    li:nth-of-type(6)
+    a::before {
     content: "";
     background-image: url(../images/sub-star.svg);
     background-size: 100% 100%;
@@ -3480,7 +4774,13 @@ ul.tab--controll::-webkit-scrollbar {
     width: 20px;
     background-repeat: no-repeat;
   }
-  .view-course .tab--content .view-course-progress .tab-right ul li.current--item:nth-of-type(6) a::before {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .tab-right
+    ul
+    li.current--item:nth-of-type(6)
+    a::before {
     background-image: url(../images/sub-star-hv.svg);
   }
 }
@@ -3510,7 +4810,10 @@ ul.tab--controll::-webkit-scrollbar {
     visibility: hidden;
     transition: all 0.3s;
   }
-  .view-course .tab--content .view-course-progress .tab-right.active, .view-course .tab--content .view-course-progress .tab-right.active .overlay, .view-course .tab--content .view-course-progress .tab-right.active ul, .view-course .tab--content .view-course-progress .tab-right.active .remove {
+  .view-course .tab--content .view-course-progress .tab-right.active,
+  .view-course .tab--content .view-course-progress .tab-right.active .overlay,
+  .view-course .tab--content .view-course-progress .tab-right.active ul,
+  .view-course .tab--content .view-course-progress .tab-right.active .remove {
     opacity: 1;
     visibility: visible;
   }
@@ -3540,63 +4843,106 @@ ul.tab--controll::-webkit-scrollbar {
 }
 .view-course .tab--content .view-course-progress .item--content {
   margin-top: 40px;
-  background: #F9F9FB;
-  border: 1px solid #E5E5E5;
+  background: #f9f9fb;
+  border: 1px solid #e5e5e5;
   border-radius: 14px;
   overflow: hidden;
 }
 .view-course .tab--content .view-course-progress .item--content:nth-of-type(1) {
   margin-top: 0;
 }
-.view-course .tab--content .view-course-progress .item--content .progress-title {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-title {
   font-family: "San Francisco Display";
   font-weight: 400;
   font-size: 32px;
   line-height: 178.6%;
-  color: #0D7DFC;
+  color: #0d7dfc;
   padding: 16px 40px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   align-items: center;
   margin-bottom: 0;
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #e5e5e5;
 }
-.view-course .tab--content .view-course-progress .item--content .progress-title img {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-title
+  img {
   margin-right: 19px;
 }
 @media screen and (max-width: 1200px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-title {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-title {
     padding: 13px 30px;
   }
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-title {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-title {
     padding: 13px 10px;
     font-size: 20px;
   }
-  .view-course .tab--content .view-course-progress .item--content .progress-title img {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-title
+    img {
     margin-right: 14px;
     width: 24px;
   }
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content {
   padding: 35px 101px;
 }
 @media screen and (max-width: 1279px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content {
     padding: 35px 80px;
   }
 }
 @media screen and (max-width: 1279px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content {
     padding: 35px 50px;
   }
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content {
     padding: 29px 13px;
   }
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .link-course {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  .link-course {
   display: block;
   text-align: center;
   margin-top: 34px;
@@ -3604,99 +4950,210 @@ ul.tab--controll::-webkit-scrollbar {
   font-weight: 500;
   font-size: 20px;
   line-height: 123.6%;
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content .link-course {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .link-course {
     margin-top: 27px;
   }
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  .item--progress {
   align-items: center;
   justify-content: space-between;
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress + .item--progress {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  .item--progress
+  + .item--progress {
   margin-top: 23px;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress + .item--progress {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .item--progress
+    + .item--progress {
     margin-top: 20px;
   }
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress .left {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  .item--progress
+  .left {
   flex-wrap: nowrap;
   align-items: flex-start;
   position: relative;
   padding-left: 46px;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress .left {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .item--progress
+    .left {
     padding-left: 28px;
   }
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress .right {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  .item--progress
+  .right {
   padding-left: 46px;
 }
 @media screen and (max-width: 991px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress .right {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .item--progress
+    .right {
     padding-left: 20px;
   }
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress .right {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .item--progress
+    .right {
     padding-left: 10px;
   }
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress .number-scrore,
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress .link {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  .item--progress
+  .number-scrore,
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  .item--progress
+  .link {
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 178.6%;
-  color: #B2B2B2;
+  color: #b2b2b2;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress .number-scrore,
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress .link {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .item--progress
+    .number-scrore,
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .item--progress
+    .link {
     font-size: 18px;
   }
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress .link {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  .item--progress
+  .link {
   margin-left: 62px;
 }
 @media screen and (max-width: 991px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress .link {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .item--progress
+    .link {
     margin-left: 20px;
   }
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress .link {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .item--progress
+    .link {
     margin-left: 0;
     line-height: 22px;
   }
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .item--progress .link a {
-  color: #0D7DFC;
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  .item--progress
+  .link
+  a {
+  color: #0d7dfc;
   font-weight: 500;
   word-break: break-all;
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .icon {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  .icon {
   width: 26px;
   height: 26px;
-  border: 2px solid #F44336;
+  border: 2px solid #f44336;
   border-radius: 3px;
   line-height: 26px;
   text-align: center;
   margin-right: 20px;
-  color: #F44336;
+  color: #f44336;
   position: absolute;
   top: 8px;
   left: 0;
   font-size: 23px;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content .icon {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .icon {
     width: 20px;
     height: 20px;
     line-height: 20px;
@@ -3706,17 +5163,32 @@ ul.tab--controll::-webkit-scrollbar {
     font-size: 18px;
   }
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .icon.check {
-  color: #4CAF50;
-  border-color: #4CAF50;
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  .icon.check {
+  color: #4caf50;
+  border-color: #4caf50;
   font-size: 14px;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content .icon.check {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .icon.check {
     font-size: 12px;
   }
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content h4 {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  h4 {
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 500;
@@ -3726,52 +5198,93 @@ ul.tab--controll::-webkit-scrollbar {
   margin-bottom: 0;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content h4 {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    h4 {
     font-size: 20px;
   }
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .points-total {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  .points-total {
   width: 517px;
-  background: #E5E5E5;
+  background: #e5e5e5;
   border-radius: 39px;
   height: 8px;
   position: relative;
 }
 @media screen and (max-width: 1200px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content .points-total {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .points-total {
     width: 400px;
   }
 }
 @media screen and (max-width: 991px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content .points-total {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .points-total {
     width: 375px;
   }
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content .points-total {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .points-total {
     width: 183px;
     height: 6px;
   }
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .points-total .point-achie {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  .points-total
+  .point-achie {
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
-  background: #03A9F4;
+  background: #03a9f4;
   border-radius: 39px;
 }
-.view-course .tab--content .view-course-progress .item--content .progress-item-content .points-number {
+.view-course
+  .tab--content
+  .view-course-progress
+  .item--content
+  .progress-item-content
+  .points-number {
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 178.6%;
-  color: #4C4C4C;
+  color: #4c4c4c;
   margin-left: 17px;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress .item--content .progress-item-content .points-number {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content
+    .progress-item-content
+    .points-number {
     font-size: 18px;
     margin-left: 15px;
     color: #333333;
@@ -3781,31 +5294,65 @@ ul.tab--controll::-webkit-scrollbar {
   .view-course .tab--content .view-course-progress .item--content {
     margin-top: 20px;
   }
-  .view-course .tab--content .view-course-progress .item--content:nth-of-type(1) {
+  .view-course
+    .tab--content
+    .view-course-progress
+    .item--content:nth-of-type(1) {
     margin-top: 0;
   }
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress #progress-quiz .progress-item-content {
+  .view-course
+    .tab--content
+    .view-course-progress
+    #progress-quiz
+    .progress-item-content {
     padding: 29px 9px;
   }
-  .view-course .tab--content .view-course-progress #progress-quiz .progress-item-content h4 {
+  .view-course
+    .tab--content
+    .view-course-progress
+    #progress-quiz
+    .progress-item-content
+    h4 {
     font-size: 18px;
   }
 }
-.view-course .tab--content .view-course-progress #progress-quiz .progress-item-content .item--progress + .item--progress {
+.view-course
+  .tab--content
+  .view-course-progress
+  #progress-quiz
+  .progress-item-content
+  .item--progress
+  + .item--progress {
   margin-top: 32px;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress #progress-quiz .progress-item-content .item--progress + .item--progress {
+  .view-course
+    .tab--content
+    .view-course-progress
+    #progress-quiz
+    .progress-item-content
+    .item--progress
+    + .item--progress {
     margin-top: 29px;
   }
 }
-.view-course .tab--content .view-course-progress #progress-ass .item--progress + .item--progress {
+.view-course
+  .tab--content
+  .view-course-progress
+  #progress-ass
+  .item--progress
+  + .item--progress {
   margin-top: 20px;
 }
 @media screen and (max-width: 767px) {
-  .view-course .tab--content .view-course-progress #progress-ass .progress-title img {
+  .view-course
+    .tab--content
+    .view-course-progress
+    #progress-ass
+    .progress-title
+    img {
     width: 18px;
   }
 }
@@ -3814,12 +5361,12 @@ ul.tab--controll::-webkit-scrollbar {
   font-weight: 500;
   font-size: 25px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   height: 51px;
   line-height: 51px;
   min-width: 198px;
   padding: 0 15px;
-  background: #0D7DFC;
+  background: #0d7dfc;
   border-radius: 5px;
   display: inline-block;
 }
@@ -3835,23 +5382,28 @@ ul.tab--controll::-webkit-scrollbar {
   }
 }
 
-.degress-ic, .list-degrees .course .course-img span.degress-ic {
+.degress-ic,
+.list-degrees .course .course-img span.degress-ic {
   max-width: 126px;
   height: 52px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 8px 0px;
 }
-.degress-ic img, .list-degrees .course .course-img span.degress-ic img {
+.degress-ic img,
+.list-degrees .course .course-img span.degress-ic img {
   max-width: 100%;
 }
 
-.course-bookmark .tab-menu ul li:hover ::after, .course-bookmark .tab-menu ul li.active ::after, .site-header .menu .navigation li:hover::after, .site-header .menu .navigation li.active::after {
+.course-bookmark .tab-menu ul li:hover ::after,
+.course-bookmark .tab-menu ul li.active ::after,
+.site-header .menu .navigation li:hover::after,
+.site-header .menu .navigation li.active::after {
   content: "";
   position: absolute;
   display: block;
   width: 100%;
   height: 3px;
-  background: #0D7DFC;
+  background: #0d7dfc;
 }
 
 .list-courses .course {
@@ -3862,38 +5414,50 @@ ul.tab--controll::-webkit-scrollbar {
   -ms-transition: all 0.3s ease-in-out 0s;
 }
 
-.course-img, .course-details .course-details__ct .course-img, .list-courses .course .course-img {
+.course-img,
+.course-details .course-details__ct .course-img,
+.list-courses .course .course-img {
   margin-bottom: 12px;
   position: relative;
 }
-.course-img span, .course-details .course-details__ct .course-img span, .list-courses .course .course-img span {
+.course-img span,
+.course-details .course-details__ct .course-img span,
+.list-courses .course .course-img span {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 20px;
   line-height: 25px;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   padding: 7px 18px 8px 17px;
   position: absolute;
-  background: #4897F1;
+  background: #4897f1;
   border-radius: 0px 4px 4px 0px;
   left: 0;
   top: 12px;
 }
-.course-img span.lang-en, .course-details .course-details__ct .course-img span.lang-en, .list-courses .course .course-img span.lang-en {
-  background: #FFAE33;
+.course-img span.lang-en,
+.course-details .course-details__ct .course-img span.lang-en,
+.list-courses .course .course-img span.lang-en {
+  background: #ffae33;
 }
 @media screen and (max-width: 480px) {
-  .course-img span, .course-details .course-details__ct .course-img span, .list-courses .course .course-img span {
+  .course-img span,
+  .course-details .course-details__ct .course-img span,
+  .list-courses .course .course-img span {
     padding: 5px 11px 6px 15px;
   }
 }
-.course-img img, .course-details .course-details__ct .course-img img, .list-courses .course .course-img img {
+.course-img img,
+.course-details .course-details__ct .course-img img,
+.list-courses .course .course-img img {
   max-width: 100%;
 }
 @media screen and (max-width: 480px) {
-  .course-img img, .course-details .course-details__ct .course-img img, .list-courses .course .course-img img {
+  .course-img img,
+  .course-details .course-details__ct .course-img img,
+  .list-courses .course .course-img img {
     width: 100%;
   }
 }
@@ -3986,7 +5550,7 @@ body.menu-open::before {
     display: block;
     height: 25px;
     width: 2px;
-    background: #E5E5E5;
+    background: #e5e5e5;
     position: absolute;
     right: -16px;
   }
@@ -4006,7 +5570,7 @@ body.menu-open::before {
   display: block;
   height: 51px;
   width: 1px;
-  background: #E9E9E9;
+  background: #e9e9e9;
   position: absolute;
   left: 0px;
   top: 50%;
@@ -4024,11 +5588,13 @@ body.menu-open::before {
     display: block;
   }
 }
-.site-header .menu .navigation li:hover a, .site-header .menu .navigation li.active a {
-  color: #0D7DFC;
+.site-header .menu .navigation li:hover a,
+.site-header .menu .navigation li.active a {
+  color: #0d7dfc;
 }
 @media screen and (max-width: 991px) {
-  .site-header .menu .navigation li:hover a, .site-header .menu .navigation li.active a {
+  .site-header .menu .navigation li:hover a,
+  .site-header .menu .navigation li.active a {
     font-size: 16px;
     line-height: 29px;
     font-weight: 500;
@@ -4045,11 +5611,13 @@ body.menu-open::before {
     line-height: 29px;
   }
 }
-.site-header .menu .navigation li:hover::after, .site-header .menu .navigation li.active::after {
+.site-header .menu .navigation li:hover::after,
+.site-header .menu .navigation li.active::after {
   bottom: -35px;
 }
 @media screen and (max-width: 991px) {
-  .site-header .menu .navigation li:hover::after, .site-header .menu .navigation li.active::after {
+  .site-header .menu .navigation li:hover::after,
+  .site-header .menu .navigation li.active::after {
     display: none;
   }
 }
@@ -4067,7 +5635,7 @@ body.menu-open::before {
     padding: 6px 16px;
   }
   .site-header .menu .navigation li.active {
-    background: #F7F7F7;
+    background: #f7f7f7;
   }
 }
 @media screen and (max-width: 991px) {
@@ -4095,7 +5663,7 @@ body.menu-open::before {
     display: block;
     width: 26px;
     height: 2px;
-    background: #0D7DFC;
+    background: #0d7dfc;
     border-radius: 2px;
   }
   .site-header .menu .btn-mobile span:not(:last-child) {
@@ -4113,7 +5681,7 @@ body.menu-open::before {
 
 .site-header .right-ct .btn-register {
   background: #fff;
-  color: #1D293F;
+  color: #1d293f;
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 600;
@@ -4133,8 +5701,8 @@ body.menu-open::before {
   }
 }
 .site-header .right-ct .btn-login {
-  background: #0D7DFC;
-  color: #E9F7FE;
+  background: #0d7dfc;
+  color: #e9f7fe;
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 600;
@@ -4147,7 +5715,6 @@ body.menu-open::before {
 .site-header .right-ct .btn-login:hover {
   background: #10519d;
 }
-
 
 main {
   margin-top: 100px;
@@ -4167,7 +5734,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  background-color: #F8F8F9;
+  background-color: #f8f8f9;
   padding: 98px 0 168px;
 }
 
@@ -4179,7 +5746,7 @@ main {
 .home-banner h1 {
   letter-spacing: 0.06em;
   text-transform: capitalize;
-  color: #0D7DFC;
+  color: #0d7dfc;
   margin-bottom: 14px;
 }
 @media screen and (max-width: 480px) {
@@ -4206,7 +5773,7 @@ main {
 }
 .home-banner form.search-course {
   max-width: 651px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.04);
   border-radius: 8px;
   padding: 8px 14px 8px 24px;
@@ -4251,7 +5818,7 @@ main {
   background: none;
 }
 .home-banner form.search-course input::placeholder {
-  color: #B2B2B2;
+  color: #b2b2b2;
 }
 @media screen and (max-width: 480px) {
   .home-banner form.search-course input {
@@ -4264,8 +5831,8 @@ main {
 }
 .home-banner form.search-course button {
   padding: 14px 32px;
-  background: #0D7DFC;
-  color: #FFFFFF;
+  background: #0d7dfc;
+  color: #ffffff;
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 600;
@@ -4333,8 +5900,8 @@ main {
   }
 }
 .list-courses .course {
-  background: #FFFFFF;
-  border: 1px solid #F2F2F2;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
   border-radius: 8px;
   padding: 14px 18px 27px 18px;
   margin-bottom: 50px;
@@ -4347,9 +5914,10 @@ main {
   }
 }
 .list-courses .course:hover {
-  border: 1px solid #0D7DFC;
+  border: 1px solid #0d7dfc;
 }
-.list-courses .course-title, .list-courses .course-title > a {
+.list-courses .course-title,
+.list-courses .course-title > a {
   font-weight: 500;
   font-size: 26px;
   line-height: 33px;
@@ -4359,7 +5927,8 @@ main {
   margin-right: -8px;
 }
 @media screen and (max-width: 480px) {
-  .list-courses .course-title, .list-courses .course-title > a {
+  .list-courses .course-title,
+  .list-courses .course-title > a {
     font-size: 24px;
     line-height: 30px;
     min-height: 65px;
@@ -4373,13 +5942,13 @@ main {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: #B2B2B2;
+  color: #b2b2b2;
   display: flex;
   justify-content: space-between;
 }
 .list-courses .course-link i,
 .list-courses .course-link svg {
-  color: #0D7DFC;
+  color: #0d7dfc;
   font-size: 25px;
 }
 
@@ -4403,7 +5972,7 @@ main {
   content: "\f107";
   font-family: "FontAwesome";
   position: absolute;
-  color: #B2B2B2;
+  color: #b2b2b2;
   font-size: 13px;
   top: 4px;
   right: -20px;
@@ -4441,7 +6010,7 @@ main {
   position: absolute;
   top: 0;
   right: -30px;
-  background: #E9E9E9;
+  background: #e9e9e9;
   height: 570px;
   width: 1px;
 }
@@ -4494,12 +6063,12 @@ main {
   }
 }
 .course-details .course-menu li :hover {
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .course-details .course-menu li a {
   font-weight: 400;
   font-size: 20px;
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
 @media screen and (max-width: 991px) {
   .course-details .course-menu li a {
@@ -4508,7 +6077,7 @@ main {
   }
 }
 .course-details .course-menu li.active > a {
-  color: #0D7DFC;
+  color: #0d7dfc;
   font-weight: 500;
 }
 @media screen and (max-width: 991px) {
@@ -4516,7 +6085,7 @@ main {
     content: "\f107";
     font-family: "FontAwesome";
     position: absolute;
-    color: #B2B2B2;
+    color: #b2b2b2;
     font-size: 13px;
     top: 4px;
     right: -20px;
@@ -4537,7 +6106,7 @@ main {
   content: "\f107";
   font-family: "FontAwesome";
   position: absolute;
-  color: #B2B2B2;
+  color: #b2b2b2;
   font-size: 13px;
   top: 4px;
   right: -20px;
@@ -4594,7 +6163,7 @@ main {
     display: block;
     width: 1px;
     height: 18px;
-    background: #0D7DFC;
+    background: #0d7dfc;
     position: absolute;
     top: 9px;
     left: 0;
@@ -4674,7 +6243,7 @@ main {
   border-radius: 5px;
   padding: 10px 32px;
   height: 51px;
-  background: #0D7DFC;
+  background: #0d7dfc;
   border-radius: 5px;
   border: none;
   font-weight: 500;
@@ -4684,16 +6253,19 @@ main {
   box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.12);
 }
 .course-details .course-details__ct .course-start.funix-box button.no-active {
-  background: #B2B2B2;
+  background: #b2b2b2;
 }
-.course-details .course-details__ct .course-start.funix-box button.no-active:hover {
-  color: #FFFFFF;
+.course-details
+  .course-details__ct
+  .course-start.funix-box
+  button.no-active:hover {
+  color: #ffffff;
 }
 .course-details .course-details__ct .course-start.funix-box span {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
-  color: #B2B2B2;
+  color: #b2b2b2;
 }
 .course-details .course-details__ct .course-start.funix-box p {
   display: block;
@@ -4701,7 +6273,7 @@ main {
   font-family: "San Francisco Display";
   font-weight: 400;
   font-size: 18px;
-  color: #F44336;
+  color: #f44336;
   text-align: right;
   margin-top: 17px;
 }
@@ -4720,12 +6292,12 @@ main {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: #B2B2B2;
+  color: #b2b2b2;
 }
 @media screen and (max-width: 991px) {
   .course-details .course-details__ct .course-start p.course-disable {
     margin-bottom: 0;
-    color: #F44336;
+    color: #f44336;
     margin-top: 13px;
   }
 }
@@ -4735,7 +6307,7 @@ main {
   }
 }
 .course-details .course-details__ct .course-start .btn {
-  background: #0D7DFC;
+  background: #0d7dfc;
   color: #fff;
   font-family: "San Francisco Display";
   font-style: normal;
@@ -4761,7 +6333,7 @@ main {
 }
 @media screen and (max-width: 991px) {
   .course-details .course-details__ct .course-start .btn.course-disable {
-    background: #B2B2B2;
+    background: #b2b2b2;
     border-radius: 8px;
     font-size: 20px;
     line-height: 25px;
@@ -4775,7 +6347,7 @@ main {
   }
 }
 .course-details .course-details__ct .course-start .btn.course-disable:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
   width: 160px;
   height: 48px;
@@ -4786,7 +6358,7 @@ main {
   display: block;
   width: 100%;
   height: 4px;
-  background: #F2F2F2;
+  background: #f2f2f2;
   margin-top: 25px;
 }
 @media screen and (max-width: 991px) {
@@ -4853,7 +6425,7 @@ main {
   }
 }
 .course-details .course-details__ct #develop-team .info-member {
-  border: 1px solid #E9E9E9;
+  border: 1px solid #e9e9e9;
   border-radius: 24px;
   display: flex;
   padding: 27px 20px;
@@ -4868,7 +6440,7 @@ main {
 }
 .course-details .course-details__ct #develop-team .info-member .img {
   padding: 3px;
-  border: 1px solid #0E529F;
+  border: 1px solid #0e529f;
   border-radius: 50%;
   height: fit-content;
   margin-right: 30px;
@@ -4944,7 +6516,7 @@ main {
 }
 @media screen and (max-width: 480px) {
   .course-details p,
-.course-details li {
+  .course-details li {
     font-size: 16px;
     line-height: 29px;
     margin-bottom: 10px;
@@ -4957,7 +6529,7 @@ main {
   }
 }
 .course-details .info .time {
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #e5e5e5;
 }
 .course-details .info .time ul {
   margin-bottom: 18px;
@@ -5030,13 +6602,13 @@ main {
   }
 }
 .course-details .info .social li:first-child {
-  background: #55ACEE;
+  background: #55acee;
 }
 .course-details .info .social li:nth-child(2) {
-  background: #4A7AFF;
+  background: #4a7aff;
 }
 .course-details .info .social li:nth-child(3) {
-  background: #FF4308;
+  background: #ff4308;
 }
 .course-details .info .social li img {
   vertical-align: unset;
@@ -5072,10 +6644,24 @@ main {
     padding: 14px 17px 20px 17px;
     margin-bottom: 24px;
   }
-  .list-degrees .course .course-img, .list-degrees .list-courses .course .course-img, .list-courses .list-degrees .course .course-img, .list-degrees .course .course-details .course-details__ct .course-img, .course-details .course-details__ct .list-degrees .course .course-img, .list-degrees .course-details .course-details__ct .list-courses .course .course-img {
+  .list-degrees .course .course-img,
+  .list-degrees .list-courses .course .course-img,
+  .list-courses .list-degrees .course .course-img,
+  .list-degrees .course .course-details .course-details__ct .course-img,
+  .course-details .course-details__ct .list-degrees .course .course-img,
+  .list-degrees
+    .course-details
+    .course-details__ct
+    .list-courses
+    .course
+    .course-img {
     margin-bottom: 16px;
   }
-  .list-degrees .course .course-img > img, .list-degrees .list-courses .course .course-img > img, .list-courses .list-degrees .course .course-img > img, .list-degrees .course .course-details .course-details__ct .course-img > img, .course-details .course-details__ct .list-degrees .course .course-img > img {
+  .list-degrees .course .course-img > img,
+  .list-degrees .list-courses .course .course-img > img,
+  .list-courses .list-degrees .course .course-img > img,
+  .list-degrees .course .course-details .course-details__ct .course-img > img,
+  .course-details .course-details__ct .list-degrees .course .course-img > img {
     min-height: 252px;
   }
   .list-degrees .course .course-title {
@@ -5087,7 +6673,7 @@ main {
     line-height: 20px;
   }
   .list-degrees .course-link i,
-.list-degrees .course-link svg {
+  .list-degrees .course-link svg {
     display: none;
   }
 }
@@ -5098,15 +6684,15 @@ main {
 @media screen and (max-width: 480px) {
   .login-page {
     padding: 46px 0 214px;
-    background: #FFFFFF;
+    background: #ffffff;
   }
 }
 @media screen and (min-width: 1200px) {
   .login-page {
-    background: #0D7DFC;
+    background: #0d7dfc;
   }
   .login-page .login-page__box {
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 31px 18px rgba(0, 0, 0, 0.13);
     border-radius: 14px;
   }
@@ -5154,7 +6740,7 @@ main {
   }
 }
 .login-page .content-top .btn {
-  background: #FFFFFF;
+  background: #ffffff;
   color: #333333;
   font-family: "San Francisco Display";
   font-style: normal;
@@ -5166,7 +6752,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #4C4C4C;
+  border: 1px solid #4c4c4c;
   border-radius: 8px;
   font-weight: 500;
   font-size: 24px;
@@ -5208,16 +6794,18 @@ main {
   align-items: center;
   margin-bottom: 10px;
 }
-.login-page .content-top p:last-child::before, .login-page .content-top p:last-child::after {
+.login-page .content-top p:last-child::before,
+.login-page .content-top p:last-child::after {
   content: "";
   display: block;
   width: 100%;
   max-width: 240px;
   height: 1px;
-  background: #E9E9E9;
+  background: #e9e9e9;
 }
 @media screen and (max-width: 480px) {
-  .login-page .content-top p:last-child::before, .login-page .content-top p:last-child::after {
+  .login-page .content-top p:last-child::before,
+  .login-page .content-top p:last-child::after {
     max-width: 134px;
   }
 }
@@ -5247,7 +6835,7 @@ main {
   font-size: 20px;
   line-height: 36px;
   padding: 17px 24px;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 8px;
   box-shadow: none;
   height: 70px;
@@ -5267,7 +6855,7 @@ main {
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
-  color: #E5E5E5;
+  color: #e5e5e5;
   margin-top: 8px;
 }
 @media screen and (max-width: 480px) {
@@ -5281,7 +6869,7 @@ main {
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
-  color: #0D7DFC;
+  color: #0d7dfc;
   margin-bottom: 22px;
 }
 @media screen and (max-width: 480px) {
@@ -5289,9 +6877,9 @@ main {
     margin-top: 8px;
   }
 }
-.login-page .content form button[type=submit] {
-  background: #0D7DFC;
-  color: #FFFFFF;
+.login-page .content form button[type="submit"] {
+  background: #0d7dfc;
+  color: #ffffff;
   font-family: "San Francisco Display";
   font-style: normal;
   font-weight: 600;
@@ -5306,11 +6894,11 @@ main {
   font-size: 16px;
   line-height: 26px;
 }
-.login-page .content form button[type=submit]:hover {
+.login-page .content form button[type="submit"]:hover {
   background: #10519d;
 }
 @media screen and (max-width: 480px) {
-  .login-page .content form button[type=submit] {
+  .login-page .content form button[type="submit"] {
     margin-top: 41px;
     margin-bottom: 37px;
     font-size: 20px;
@@ -5330,7 +6918,7 @@ main {
   margin-bottom: 0;
 }
 .login-page .content .registe-account a {
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .login-page .background {
   max-width: 470px;
@@ -5353,23 +6941,23 @@ main {
 .course-bookmark .breadcrumb {
   margin-bottom: 48px;
   padding: 0;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .course-bookmark .breadcrumb li {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
 .course-bookmark .breadcrumb li a {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .course-bookmark .breadcrumb li + .breadcrumb-item::before {
   content: ">";
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 @media screen and (max-width: 480px) {
   .course-bookmark .breadcrumb {
@@ -5411,7 +6999,7 @@ main {
   width: 100%;
   display: block;
   height: 1px;
-  background: #E5E5E5;
+  background: #e5e5e5;
   margin-top: 9px;
 }
 @media screen and (max-width: 768px) {
@@ -5448,7 +7036,7 @@ main {
   font-size: 22px;
   line-height: 27px;
   text-align: center;
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
 @media screen and (max-width: 991px) {
   .course-bookmark .tab-menu ul li a {
@@ -5464,7 +7052,7 @@ main {
     content: "";
     display: block;
     height: 1px;
-    background: #E5E5E5;
+    background: #e5e5e5;
     margin-top: 9px;
     width: calc(100% + 55px);
     position: absolute;
@@ -5481,19 +7069,23 @@ main {
     width: calc(100% + 20px);
   }
 }
-.course-bookmark .tab-menu ul li:hover a, .course-bookmark .tab-menu ul li.active a {
-  color: #0D7DFC;
+.course-bookmark .tab-menu ul li:hover a,
+.course-bookmark .tab-menu ul li.active a {
+  color: #0d7dfc;
 }
-.course-bookmark .tab-menu ul li:hover ::after, .course-bookmark .tab-menu ul li.active ::after {
+.course-bookmark .tab-menu ul li:hover ::after,
+.course-bookmark .tab-menu ul li.active ::after {
   bottom: -9px;
 }
 @media screen and (max-width: 768px) {
-  .course-bookmark .tab-menu ul li:hover ::after, .course-bookmark .tab-menu ul li.active ::after {
+  .course-bookmark .tab-menu ul li:hover ::after,
+  .course-bookmark .tab-menu ul li.active ::after {
     width: calc(100% - 40px);
   }
 }
 @media screen and (max-width: 480px) {
-  .course-bookmark .tab-menu ul li:hover ::after, .course-bookmark .tab-menu ul li.active ::after {
+  .course-bookmark .tab-menu ul li:hover ::after,
+  .course-bookmark .tab-menu ul li.active ::after {
     width: calc(100% - 17px);
   }
 }
@@ -5519,7 +7111,7 @@ main {
   font-size: 20px;
   line-height: 25px;
   text-transform: capitalize;
-  color: #C4C4C4;
+  color: #c4c4c4;
   margin-left: 13px;
 }
 @media screen and (max-width: 480px) {
@@ -5555,7 +7147,7 @@ main {
 .course-bookmark #bookmarked .list-bookmark .list-item > a {
   width: 100%;
   padding: 24px 21px 20px 56px;
-  border: 1px solid #E3E2E2;
+  border: 1px solid #e3e2e2;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
@@ -5563,7 +7155,7 @@ main {
   position: relative;
 }
 .course-bookmark #bookmarked .list-bookmark .list-item > a > img {
-  color: #0D7DFC;
+  color: #0d7dfc;
   position: absolute;
   font-size: 26px;
   top: -1px;
@@ -5579,13 +7171,13 @@ main {
   font-weight: 500;
   font-size: 20px;
   line-height: 36px;
-  color: #4C4C4C;
+  color: #4c4c4c;
   margin-bottom: 26px;
 }
 @media screen and (max-width: 480px) {
   .course-bookmark #bookmarked .list-bookmark .list-item > a .text h4 {
     font-weight: 400;
-    color: #0D7DFC;
+    color: #0d7dfc;
     margin-bottom: 24px;
     font-size: 18px;
     line-height: 28px;
@@ -5595,11 +7187,11 @@ main {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #4C4C4C;
+  color: #4c4c4c;
   margin-bottom: 0;
 }
 .course-bookmark #bookmarked .list-bookmark .list-item > a:hover {
-  border: 1px solid #0D7DFC;
+  border: 1px solid #0d7dfc;
 }
 .course-bookmark #bookmarked .list-bookmark .list-item > a .link {
   font-size: 30px;
@@ -5619,7 +7211,7 @@ main {
   display: block;
   width: 1px;
   height: 100%;
-  background: #E9E9E9;
+  background: #e9e9e9;
   margin-right: 20px;
 }
 @media screen and (max-width: 480px) {
@@ -5676,7 +7268,7 @@ main {
   margin-bottom: 46px;
 }
 .course-bookmark #update .show-more-content a {
-  color: #0D7DFC;
+  color: #0d7dfc;
   font-weight: 500;
   font-size: 20px;
   line-height: 25px;
@@ -5691,7 +7283,7 @@ main {
   position: relative;
   z-index: 1;
   background: #fff;
-  box-shadow: 0px -1px 0px #E5E5E5;
+  box-shadow: 0px -1px 0px #e5e5e5;
   padding: 50px 0 100px;
 }
 @media screen and (min-width: 480px) {
@@ -5714,7 +7306,7 @@ main {
   font-weight: 400;
   font-size: 22px;
   line-height: 27px;
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
 @media screen and (max-width: 480px) {
   .site-footer .footer-nav li a {
@@ -5723,7 +7315,7 @@ main {
   }
 }
 .site-footer .footer-nav li a:hover {
-  color: #0D7DFC;
+  color: #0d7dfc;
 }
 .site-footer .footer-logo {
   position: relative;
@@ -5742,7 +7334,7 @@ main {
   font-weight: 400;
   font-size: 22px;
   line-height: 27px;
-  color: #C4C4C4;
+  color: #c4c4c4;
   text-align: center;
 }
 @media screen and (max-width: 480px) {
@@ -5800,7 +7392,7 @@ main {
 }
 .site-footer .list-social li a {
   font-size: 17px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .site-footer .list-social li a i,
 .site-footer .list-social li a svg {
@@ -5808,7 +7400,7 @@ main {
 }
 @media screen and (max-width: 480px) {
   .site-footer .list-social li a i,
-.site-footer .list-social li a svg {
+  .site-footer .list-social li a svg {
     vertical-align: text-top;
   }
 }
@@ -5818,16 +7410,16 @@ main {
   }
 }
 .site-footer .list-social li:first-child {
-  background: #55ACE3;
+  background: #55ace3;
 }
 .site-footer .list-social li:nth-child(2) {
-  background: #4A7AFF;
+  background: #4a7aff;
 }
 .site-footer .list-social li:nth-child(3) {
-  background: #F40000;
+  background: #f40000;
 }
 .site-footer .list-social li:nth-child(4) {
-  background: #2878B7;
+  background: #2878b7;
 }
 
 .copyright .container {
@@ -5837,7 +7429,7 @@ main {
 .copyright .container::after {
   content: "";
   width: calc(100% - 30px);
-  background: #E5E5E5;
+  background: #e5e5e5;
   height: 1px;
   position: absolute;
   top: 0;
@@ -5856,10 +7448,11 @@ main {
 
 /*# sourceMappingURL=style.css.map */
 a {
-  transition: all 0.3s !important; 
+  transition: all 0.3s !important;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none !important;
   transition: all 0.3s ease-in-out 0s !important;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -5868,20 +7461,26 @@ a, a:hover {
   -ms-transition: all 0.3s ease-in-out 0s;
 }
 
-
-.search-btn{
+.search-btn {
   letter-spacing: 0px !important;
   text-shadow: none !important;
 }
 
-.theme-font{
+.theme-font {
   font-style: normal !important;
 }
 
 /* Tablet */
-@media (min-width: 768px){
-  .container, section.outside-app, .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy, .view-profile .wrapper-profile-sections, .view-profile .badge-set-display {
-      padding: 0px;
+@media (min-width: 768px) {
+  .container,
+  section.outside-app,
+  .view-profile
+    .profile-self
+    .wrapper-profile-field-account-privacy
+    .u-field-account_privacy,
+  .view-profile .wrapper-profile-sections,
+  .view-profile .badge-set-display {
+    padding: 0px;
   }
   .content-wrapper {
     padding: 0px;
@@ -5911,19 +7510,19 @@ a, a:hover {
   }
   .home-banner {
     padding: 36px 0 147px;
-    background-image: url('https://lilac.funix.edu.vn/static/themes/indigo/lms/static/images/home-banner-mb.png') !important;
+    background-image: url("https://lilac.funix.edu.vn/static/themes/indigo/lms/static/images/home-banner-mb.png") !important;
     background-position: center;
   }
 
-  .user-image-frame{
+  .user-image-frame {
     width: 30px;
     height: 30px;
-    background-image: url('https://lilac.funix.edu.vn/static/themes/static/indigo/images/profiles/default_30.png') !important;
+    background-image: url("https://lilac.funix.edu.vn/static/themes/static/indigo/images/profiles/default_30.png") !important;
   }
 
   .site-header .right-ct .down-icon {
     width: 13px;
     height: 7px;
     margin-bottom: 10px;
-}
+  }
 }
