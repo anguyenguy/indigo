@@ -1,7 +1,8 @@
+
 $(document).ready(function () {
   $.ajax({
     type: "GET",
-    url: "http://studio.local.overhang.io:8001/fxprograms/api/programs",
+    url: `http://studio.local.overhang.io:8001/fxprograms/api/programs`,
     success: function (response) {
       var programs = response;
       let program_id = Object.keys(programs)[0];
@@ -23,14 +24,19 @@ $(document).ready(function () {
                 <div class="col-md-4">
                     <div class="card-deck">
                         <div class="card" >
-                            <img src="${course_image_url}" class="card-img-top" style="padding: 15px; border-radius: 20px" alt="Ảnh khóa học" />
+                          <div class="position-relative">
+                            <div class="position-absolute top-0 start-0 p-2 ${courseData.language === 'en' ? 'bg-primary text-white' : 'bg-danger text-white'}" style="top: 15px;">
+                              <span>${courseData.language === 'en' ? 'Tiếng Anh' : 'Tiếng Việt'}</span>
+                            </div>
+                            <img src="${course_image_url}" class="card-img-top w-100 img-fluid" style="padding: 15px; border-radius: 20px" alt="Ảnh khóa học" />
+
+                          </div>
                             <div class="card-body ">
                                 <h5 class="card-title">${course_name}</h5>
                                 
-                                <div class="card-footer d-flex justify-content-between">
+                                <div class="d-flex justify-content-between">
                                     <div class="d-flex flex-column text-left">
                                         <span>${program_id}</span>
-                                        <span>${course_id.split(":")[1]}</span>
                                     </div>
                                     <a href="../courses/${course_id}" class="btn btn-link"><i class="fa fa-long-arrow-right" style="font-size: 20px; transform: scale(1.5)" aria-hidden="true"></i></a>
                                 </div>
