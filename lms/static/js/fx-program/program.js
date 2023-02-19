@@ -7,7 +7,7 @@ $(document).ready(function () {
  });
   $.ajax({
     type: "GET",
-    url: `http://studio.lilac.funix.edu.vn/fxprograms/api/programs`,
+    url: `https://studio.lilac.funix.edu.vn/fxprograms/api/programs`,
     success: function (response) {
       var programs = response;
       let program_id = Object.keys(programs)[0];
