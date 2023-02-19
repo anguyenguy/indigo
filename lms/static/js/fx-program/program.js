@@ -1,8 +1,13 @@
 
 $(document).ready(function () {
+  $.ajaxSetup({
+    beforeSend: function(request) {
+       request.setRequestHeader("fx-programs-headers", 'fx-programs-value');
+    },
+ });
   $.ajax({
     type: "GET",
-    url: `http://studio.local.overhang.io:8001/fxprograms/api/programs`,
+    url: `http://studio.lilac.funix.edu.vn/fxprograms/api/programs`,
     success: function (response) {
       var programs = response;
       let program_id = Object.keys(programs)[0];
