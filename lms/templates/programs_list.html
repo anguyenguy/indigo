@@ -1,24 +1,18 @@
-<%page expression_filter="h"/> <%inherit file="main.html" /> <%namespace
-name='static' file='static_content.html'/> <%namespace name="dynamic"
-file="static_dynamic_path.html"/>
-<link rel="stylesheet" href="${dynamic.path()}/css/program.css" />
+<%page expression_filter="h"/>
+<%namespace name='static' file='static_content.html'/>
+<%! from django.utils.translation import ugettext as _ %>
 
-<%!from django.utils.translation import ugettext as _ %>
-
-<main id="main" aria-label="Content" tabindex="-1">
+<div class="list-courses">
   <div class="container">
-    <h2 class="program_title">
-      ${_("Programs")}
-      <span class="text-dark" style="font-size: 18px"
-        >(<span id="program_count"></span> chứng chỉ)</span
-      >
-    </h2>
-    <div class="row program_content">
-      <!-- Để trống cho các thẻ chứa dữ liệu khóa học -->
+    <h2 class=" title">Chứng chỉ</h2>
+    <span class="subtitle">(5 chứng chỉ)</span>
+    <div class="content">
+        <div class="row">
+          %for program in programs:
+            <div>${program.name}</div>
+          %endfor
+        </div>
     </div>
+
   </div>
-</main>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-
-<script src="${dynamic.path()}/js/fx-program/program.js"></script>
+</div>

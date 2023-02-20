@@ -7,6 +7,8 @@ $(document).ready(function () {
  });
   $.ajax({
     type: "GET",
+    crossDomain: true,
+    dataType: 'json',
     url: `https://studio.lilac.funix.edu.vn/fxprograms/api/programs`,
     success: function (response) {
       var programs = response;
