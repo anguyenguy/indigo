@@ -62,11 +62,11 @@ from lms.djangoapps.experiments.utils import UPSELL_TRACKING_FLAG
 <%namespace name="dynamic" file="../static_dynamic_path.html"/>
 
 <div class="course-login">
-  <% course_target = reverse(course_home_url_name(course_overview.id), args=[str(course_overview.id)]) if course_home_legacy_is_active(course_overview.id) else get_learning_mfe_home_url(course_key=course_overview.id) %>
-  <div class="course-left">
+   <% course_target = reverse(course_home_url_name(course_overview.id), args=[str(course_overview.id)]) if course_home_legacy_is_active(course_overview.id) else get_learning_mfe_home_url(course_key=course_overview.id) %>
+ <!--<div class=" course-left">
     <div class="course-img">
       <a href="${course_target}">
-        <img src="${course_overview.image_urls['small']}" class="course-image" alt="${_('{course_number} {course_name} Home Page').format(course_number=course_overview.number, course_name=course_overview.display_name_with_default)}" />
+        <img src="${course_overview.image_urls['small']}" class="course-image img-fluid" alt="${_('{course_number} {course_name} Home Page').format(course_number=course_overview.number, course_name=course_overview.display_name_with_default)}" />
       </a>
     </div>
     <div class="course-decs">
@@ -78,21 +78,69 @@ from lms.djangoapps.experiments.utils import UPSELL_TRACKING_FLAG
           ${enrollment.course_id}
         </a>
       </div>
+      <div class="course-decs-title">
+        <span style="margin-right: 49px;">Đã xem bài: 60%</span>
+        <span>Quiz: 4/6</span>
+    </div>
     </div>
   </div>
-  <div class="course-right">
+  <div class=" course-right">
     <div class="show-course-progress">
       <a href="${course_target}">
         <img src="${dynamic.path()}/images/comment.svg" />
       </a>
     </div>
     <div class="course-btn">
-      <button>
-        <a href="${course_target}">View course</a>
+      <button >
+        <a href="../courses/${course_overview.id}">View course</a>
       </button>
+    </div>
+  </div> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <a href="${course_target}">
+          <img src="${course_overview.image_urls['small']}" class="img-fluid h-100 w-100" alt="${_('{course_number} {course_name} Home Page').format(course_number=course_overview.number, course_name=course_overview.display_name_with_default)}">
+        </a>
+      </div>
+      <div class="col-sm-9">
+        <div class="card border-0 bg-transparent">
+          <div class="card-header border-0 bg-transparent">
+            <div class="show-course-progress float-right">
+              <a href="${course_target}">
+                <img src="${dynamic.path()}/images/comment.svg" />
+              </a>
+            </div>
+            <h2 class="card-title">
+              <a href="${course_target}">${course_overview.display_name_with_default}</a>
+            </h2>
+            <span class="card-subtitle">
+              <a href="${course_target}" class="course-link">
+                ${enrollment.course_id}
+              </a>
+            </span>
+           
+          </div>
+          <div class="card-body">
+            
+          </div>
+          <div class="card-footer border-0 bg-transparent">
+            <a class="btn btn-primary float-right" href="../courses/${course_overview.id}">View course</a>
+            
+            <span class="card-footer-text"> 
+              <span style="margin-right: 49px;">Đã xem bài: 60%</span>
+              <span>Quiz: 4/6</span>
+          </span>
+          </div>
+        </div>
+        
+        
+      </div>
     </div>
   </div>
 </div>
+  
+ 
 
 % if share_settings.get('DASHBOARD_FACEBOOK', False) and share_settings.get('DASHBOARD_TWITTER', False):
     <%static:require_module_async module_name="js/course_sharing/course_sharing_events" class_name="CourseSharingEvents">

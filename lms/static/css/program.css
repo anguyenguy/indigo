@@ -5,3 +5,9 @@
 .program_content {
   width: 100%;
 }
+
+@media (max-width: 576px) {
+  .btn-link {
+    display: block !important;
+  }
+}
