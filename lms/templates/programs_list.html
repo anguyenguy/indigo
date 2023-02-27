@@ -1,18 +1,46 @@
-<%page expression_filter="h"/>
-<%namespace name='static' file='static_content.html'/>
-<%! from django.utils.translation import ugettext as _ %>
+<%page expression_filter="h"/> 
+<%inherit file="main.html" /> 
+<%namespace name='static' file='static_content.html'/> 
+<%namespace name="dynamic" file="static_dynamic_path.html"/>
+<link rel="stylesheet" href="${dynamic.path()}/css/program.css" />
 
-<div class="list-courses">
+<%!from django.utils.translation import ugettext as _ %>
+
+<main id="main" aria-label="Content" tabindex="-1">
   <div class="container">
-    <h2 class=" title">Chứng chỉ</h2>
-    <span class="subtitle">(5 chứng chỉ)</span>
-    <div class="content">
-        <div class="row">
-          %for program in programs:
-            <div>${program.name}</div>
-          %endfor
+    <h2 class="program_title">
+      ${_("Programs")}
+      <span class="text-dark" style="font-size: 18px"
+        >(3 chứng chỉ)</span
+      >
+    </h2>
+    <div class="row">
+      <!-- Để trống cho các thẻ chứa dữ liệu khóa học -->
+        %for program in programs:
+          <div class="col-md-4">
+            <div class="card-deck">
+                <div class="card" >
+                  <div class="position-relative">
+                    <div class="position-absolute top-0 start-0 p-2 bg-primary text-white" style="top: 15px;">
+                      <span>Tiếng Anh</span>
+                    </div>
+                    <img src="${program.course_image_url}" class="card-img-top w-100 img-fluid" style="padding: 15px; border-radius: 20px" alt="Ảnh khóa học" />
+    
+                  </div>
+                    <div class="card-body ">
+                        <h5 class="card-title">${program.course_name}</h5>
+                        
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex flex-column text-left">
+                                <span>${program.program_id}</span>
+                            </div>
+                            <a href="../courses/${program.course_id}" class="btn btn-link"><i class="fa fa-long-arrow-right" style="font-size: 20px; transform: scale(1.5)" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        %endfor
     </div>
-
   </div>
-</div>
+</main>
